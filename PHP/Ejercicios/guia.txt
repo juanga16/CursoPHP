@@ -1,0 +1,10 @@
+1) Escribir un programa en PHP que imprima los numeros impares entre 1 y 100 
+dentro de un H1 y los pares dentro de un H2.
+
+2) Escribir un programa en PHP que dado un arreglo con numeros, informe la sumatoria de todos.
+
+3) Escribir un programa en PHP que dado un arreglo con numeros, informe el mayor.
+
+4) Escribir un programa en PHP que informe el dia y la hora. Investigar uso de la funcion date, en formato "Lunes 25 de Mayo, 19:45 horas".
+	
+5) Escribir un programa en PHP que tenga una clase con tres atributos y sus getter, setter y constructor. Instanciarla y mostrar los valores en pantalla.
