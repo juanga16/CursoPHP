@@ -42,9 +42,7 @@
             <input type="password" name="password"/>
             <br/>
             <label><?php echo $error ?></label>
-            <br/>
-            <?php echo var_dump($_SESSION); ?>
-            <br/>
+            <br/>            
             <input type="submit" value="Enviar"/><br />
         </form>
    </body>
