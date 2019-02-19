@@ -1,5 +1,6 @@
 <?php
     function valorInverso($x) {
+        // si es cero, lanzo la excepcion porque no es posible la division por cero
         if (!$x) {
             throw new Exception("División por cero");
         }
@@ -19,6 +20,6 @@
         echo "</br>";
         echo "File: ".$exception->getFile();
         echo "</br>";
-        echo "Line: ".$exception->getLine();        
+        echo "Line: ".$exception->getLine();
     }
 ?>

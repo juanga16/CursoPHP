@@ -6,13 +6,11 @@
     // session_name: devuelve el nombre de la sesión actual
     // session_id: devuelve el id de sesión para la sesión actual o la cadena vacía ("") si no hay sesión actual (no existe id de sesión actual)
 
-   
     $usuario = "";
     $error = "";
 
-    if($_SERVER["REQUEST_METHOD"] == "POST") {
-        // username and password sent from form 
-      
+    // Si posteamos el formulario
+    if($_SERVER["REQUEST_METHOD"] == "POST") {        
         $usuario = $_POST['usuario'];
         $password = $_POST['password']; 
       

@@ -4,7 +4,7 @@
         $directorio = "archivos/";
 
         // Concateno la carpeta y el nombre del archivo
-        $archivo = $directorio . basename($_FILES["imagenParaSubir"]["name"]);
+        $archivo = $directorio.basename($_FILES["imagenParaSubir"]["name"]);
     
         // Obtengo el tipo de archivo
         $tipoDeArchivo = strtolower(pathinfo($archivo, PATHINFO_EXTENSION));
@@ -46,6 +46,7 @@
         }
 
         if ($archivoValido) {
+            // Muevo el archivo de la ubicacion temporal dentro de la carpeta xampp a la ubicacion deseada
             if (move_uploaded_file($_FILES["imagenParaSubir"]["tmp_name"], $archivo)) {
                 echo "<h2>El archivo ha sido subido</h2>";
                 echo "<img src='$archivo'/>";

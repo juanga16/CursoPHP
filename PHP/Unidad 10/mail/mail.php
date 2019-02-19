@@ -7,10 +7,6 @@
     // Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
     // $mensaje = wordwrap($mensaje, 70, "\r\n");
 
-    $cabeceras = 'From: juan.desposito@gmail.com' . "\r\n" .
-            'Reply-To: juan.desposito@gmail.com' . "\r\n" .
-            'X-Mailer: PHP/' . phpversion();
-
     // Enviarlo
-    mail('juan.desposito@gmail.com', $titulo, $mensaje, $cabeceras);
+    mail('juan.desposito@gmail.com', $titulo, $mensaje);
 ?>

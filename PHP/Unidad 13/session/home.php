@@ -9,7 +9,7 @@
    
    <body>
       <h1>Bienvenido <?php echo $_SESSION['nombreUsuario']; ?></h1> 
-      <h2><a href = "logout.php">Cerrar sesión</a></h2>
+      <h2><a href="logout.php">Cerrar sesión</a></h2>
       <br/>      
    </body>   
 </html>
