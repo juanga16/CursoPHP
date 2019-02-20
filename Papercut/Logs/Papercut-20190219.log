@@ -1,0 +1,76 @@
+2019-02-19 08:27:54.621 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\Papercut\", "C:\Documents\ITX\Papercut\Incoming"]
+2019-02-19 08:27:55.038 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-02-19 08:27:55.040 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-02-19 08:27:55.040 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\Papercut\"
+2019-02-19 08:27:55.040 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\Papercut\Incoming"
+2019-02-19 08:29:35.955 -03:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2019-02-19 08:29:35.955 -03:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "1.0.0.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2019-02-19 08:29:35.955 -03:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2019-02-19 08:29:56.479 -03:00 [Error] Can not start HTTP server at port 37408.
+System.AggregateException: One or more errors occurred. ---> System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Papercut.Module.WebUI.WebServer.StartHttpServer() in C:\Downloads\Papercut-develop\src\Papercut.Module.WebUI\WebServer.cs:line 69
+---> (Inner Exception #0) System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)<---
+
+2019-02-19 08:29:59.070 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\Papercut\rules.json" on AppReady
+2019-02-19 08:30:00.008 -03:00 [Information] Starting Server Papercut
+2019-02-19 08:30:00.399 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2019-02-19 08:30:06.892 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2019-02-19 08:30:07.413 -03:00 [Information] Starting Server Smtp
+2019-02-19 08:30:07.413 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2019-02-19 16:26:14.131 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-02-19 16:26:14.138 -03:00 [Debug] New Connection 1 from "127.0.0.1:50459"
+2019-02-19 16:26:14.139 -03:00 [Debug] Initializing Background Processes...
+2019-02-19 16:26:14.166 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-02-19 16:26:14.169 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-02-19 16:26:14.170 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-02-19 16:26:14.170 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-02-19 16:26:14.170 -03:00 [Debug] Sending Line "250 OK"
+2019-02-19 16:26:14.171 -03:00 [Debug] Received Line "MAIL FROM:<noreply@serquest.com>"
+2019-02-19 16:26:14.173 -03:00 [Debug] Sending Line "250 <noreply@serquest.com> OK"
+2019-02-19 16:26:14.173 -03:00 [Debug] Received Line "RCPT TO:<mkowalczyk@itx.com>"
+2019-02-19 16:26:14.173 -03:00 [Debug] Sending Line "250 <mkowalczyk@itx.com> OK"
+2019-02-19 16:26:14.173 -03:00 [Debug] Received Line "DATA"
+2019-02-19 16:26:14.175 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-02-19 16:26:14.176 -03:00 [Debug] Sending Line "250 OK"
+2019-02-19 16:26:14.199 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190219162614183-d710f8.eml"
+2019-02-19 16:26:14.202 -03:00 [Debug] Received Line "QUIT"
+2019-02-19 16:26:14.203 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-02-19 16:26:14.205 -03:00 [Debug] Connection 1 Closed
+2019-02-19 16:27:14.171 -03:00 [Debug] Status: 0 Connections "158.8MB" Memory Used
+2019-02-19 16:47:14.180 -03:00 [Debug] Status: 0 Connections "166.6MB" Memory Used
+2019-02-19 17:07:14.193 -03:00 [Debug] Status: 0 Connections "171.6MB" Memory Used
+2019-02-19 17:27:14.193 -03:00 [Debug] Status: 0 Connections "172.1MB" Memory Used
+2019-02-19 17:47:14.193 -03:00 [Debug] Status: 0 Connections "172.7MB" Memory Used
+2019-02-19 18:07:14.196 -03:00 [Debug] Status: 0 Connections "173.4MB" Memory Used
+2019-02-19 18:27:14.196 -03:00 [Debug] Status: 0 Connections "173.6MB" Memory Used
+2019-02-19 18:47:14.196 -03:00 [Debug] Status: 0 Connections "173.6MB" Memory Used
+2019-02-19 19:07:14.206 -03:00 [Debug] Status: 0 Connections "173.7MB" Memory Used
+2019-02-19 19:27:14.207 -03:00 [Debug] Status: 0 Connections "173.6MB" Memory Used
+2019-02-19 19:47:14.208 -03:00 [Debug] Status: 0 Connections "173.9MB" Memory Used
+2019-02-19 20:07:14.211 -03:00 [Debug] Status: 0 Connections "174.6MB" Memory Used
+2019-02-19 20:27:14.213 -03:00 [Debug] Status: 0 Connections "174.6MB" Memory Used
+2019-02-19 20:47:14.210 -03:00 [Debug] Status: 0 Connections "175.6MB" Memory Used
+2019-02-19 21:07:14.223 -03:00 [Debug] Status: 0 Connections "175.8MB" Memory Used
+2019-02-19 21:27:14.243 -03:00 [Debug] Status: 0 Connections "176.4MB" Memory Used
+2019-02-19 21:47:14.239 -03:00 [Debug] Status: 0 Connections "176.6MB" Memory Used
+2019-02-19 22:07:14.242 -03:00 [Debug] Status: 0 Connections "177.6MB" Memory Used
+2019-02-19 22:27:14.243 -03:00 [Debug] Status: 0 Connections "176.7MB" Memory Used
+2019-02-19 22:47:14.239 -03:00 [Debug] Status: 0 Connections "177.7MB" Memory Used

@@ -1,0 +1,143 @@
+2019-02-18 08:31:14.165 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\Papercut\", "C:\Documents\ITX\Papercut\Incoming"]
+2019-02-18 08:31:14.834 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-02-18 08:31:14.836 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-02-18 08:31:14.837 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\Papercut\"
+2019-02-18 08:31:14.838 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\Papercut\Incoming"
+2019-02-18 08:32:18.257 -03:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2019-02-18 08:32:18.257 -03:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "1.0.0.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2019-02-18 08:32:18.257 -03:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2019-02-18 08:32:34.179 -03:00 [Error] Can not start HTTP server at port 37408.
+System.AggregateException: One or more errors occurred. ---> System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Papercut.Module.WebUI.WebServer.StartHttpServer() in C:\Downloads\Papercut-develop\src\Papercut.Module.WebUI\WebServer.cs:line 69
+---> (Inner Exception #0) System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)<---
+
+2019-02-18 08:32:34.736 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\Papercut\rules.json" on AppReady
+2019-02-18 08:32:35.434 -03:00 [Information] Starting Server Papercut
+2019-02-18 08:32:35.490 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2019-02-18 08:32:36.102 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2019-02-18 08:32:36.619 -03:00 [Information] Starting Server Smtp
+2019-02-18 08:32:36.619 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2019-02-18 10:32:12.742 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-02-18 10:32:12.744 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-02-18 10:32:12.746 -03:00 [Debug] New Connection 1 from "127.0.0.1:53373"
+2019-02-18 10:32:12.746 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-02-18 10:32:12.746 -03:00 [Debug] Initializing Background Processes...
+2019-02-18 10:32:12.747 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-02-18 10:32:12.747 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-02-18 10:32:12.747 -03:00 [Debug] Sending Line "250 OK"
+2019-02-18 10:32:12.747 -03:00 [Debug] Received Line "MAIL FROM:<no-reply@serquest.com>"
+2019-02-18 10:32:12.749 -03:00 [Debug] Sending Line "250 <no-reply@serquest.com> OK"
+2019-02-18 10:32:12.749 -03:00 [Debug] Received Line "RCPT TO:<b@b.com>"
+2019-02-18 10:32:12.750 -03:00 [Debug] Sending Line "250 <b@b.com> OK"
+2019-02-18 10:32:12.750 -03:00 [Debug] Received Line "DATA"
+2019-02-18 10:32:12.751 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-02-18 10:32:12.786 -03:00 [Debug] Sending Line "250 OK"
+2019-02-18 10:32:12.806 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190218103212792-0f9f9c.eml"
+2019-02-18 10:32:12.808 -03:00 [Debug] Received Line "QUIT"
+2019-02-18 10:32:12.808 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-02-18 10:32:12.811 -03:00 [Debug] Connection 1 Closed
+2019-02-18 10:32:12.836 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-02-18 10:32:12.836 -03:00 [Debug] New Connection 2 from "127.0.0.1:53374"
+2019-02-18 10:32:12.836 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-02-18 10:32:12.836 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-02-18 10:32:12.836 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-02-18 10:32:12.836 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-02-18 10:32:12.836 -03:00 [Debug] Sending Line "250 OK"
+2019-02-18 10:32:12.837 -03:00 [Debug] Received Line "MAIL FROM:<no-reply@serquest.com>"
+2019-02-18 10:32:12.837 -03:00 [Debug] Sending Line "250 <no-reply@serquest.com> OK"
+2019-02-18 10:32:12.837 -03:00 [Debug] Received Line "RCPT TO:<scurry@warriors.com>"
+2019-02-18 10:32:12.837 -03:00 [Debug] Sending Line "250 <scurry@warriors.com> OK"
+2019-02-18 10:32:12.837 -03:00 [Debug] Received Line "DATA"
+2019-02-18 10:32:12.837 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-02-18 10:32:12.838 -03:00 [Debug] Sending Line "250 OK"
+2019-02-18 10:32:12.840 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190218103212838-f42c67.eml"
+2019-02-18 10:32:12.840 -03:00 [Debug] Received Line "QUIT"
+2019-02-18 10:32:12.840 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-02-18 10:32:12.840 -03:00 [Debug] Connection 2 Closed
+2019-02-18 10:32:12.857 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-02-18 10:32:12.857 -03:00 [Debug] New Connection 3 from "127.0.0.1:53375"
+2019-02-18 10:32:12.857 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-02-18 10:32:12.857 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-02-18 10:32:12.857 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-02-18 10:32:12.857 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-02-18 10:32:12.857 -03:00 [Debug] Sending Line "250 OK"
+2019-02-18 10:32:12.857 -03:00 [Debug] Received Line "MAIL FROM:<no-reply@serquest.com>"
+2019-02-18 10:32:12.857 -03:00 [Debug] Sending Line "250 <no-reply@serquest.com> OK"
+2019-02-18 10:32:12.858 -03:00 [Debug] Received Line "RCPT TO:<kdurant@warriors.com>"
+2019-02-18 10:32:12.858 -03:00 [Debug] Sending Line "250 <kdurant@warriors.com> OK"
+2019-02-18 10:32:12.858 -03:00 [Debug] Received Line "DATA"
+2019-02-18 10:32:12.858 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-02-18 10:32:12.859 -03:00 [Debug] Sending Line "250 OK"
+2019-02-18 10:32:12.861 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190218103212859-1f466a.eml"
+2019-02-18 10:32:12.861 -03:00 [Debug] Received Line "QUIT"
+2019-02-18 10:32:12.861 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-02-18 10:32:12.861 -03:00 [Debug] Connection 3 Closed
+2019-02-18 10:33:12.780 -03:00 [Debug] Status: 0 Connections "203.9MB" Memory Used
+2019-02-18 10:42:38.092 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-02-18 10:42:38.092 -03:00 [Debug] New Connection 4 from "127.0.0.1:54025"
+2019-02-18 10:42:38.092 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-02-18 10:42:38.092 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-02-18 10:42:38.092 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-02-18 10:42:38.092 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-02-18 10:42:38.093 -03:00 [Debug] Sending Line "250 OK"
+2019-02-18 10:42:38.093 -03:00 [Debug] Received Line "MAIL FROM:<no-reply@serquest.com>"
+2019-02-18 10:42:38.093 -03:00 [Debug] Sending Line "250 <no-reply@serquest.com> OK"
+2019-02-18 10:42:38.093 -03:00 [Debug] Received Line "RCPT TO:<kthompson@warriors.com>"
+2019-02-18 10:42:38.093 -03:00 [Debug] Sending Line "250 <kthompson@warriors.com> OK"
+2019-02-18 10:42:38.094 -03:00 [Debug] Received Line "DATA"
+2019-02-18 10:42:38.094 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-02-18 10:42:38.094 -03:00 [Debug] Sending Line "250 OK"
+2019-02-18 10:42:38.096 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190218104238095-6f094a.eml"
+2019-02-18 10:42:38.096 -03:00 [Debug] Received Line "QUIT"
+2019-02-18 10:42:38.097 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-02-18 10:42:38.097 -03:00 [Debug] Connection 4 Closed
+2019-02-18 10:53:12.782 -03:00 [Debug] Status: 0 Connections "205.6MB" Memory Used
+2019-02-18 11:13:12.796 -03:00 [Debug] Status: 0 Connections "207.1MB" Memory Used
+2019-02-18 11:33:12.810 -03:00 [Debug] Status: 0 Connections "207.2MB" Memory Used
+2019-02-18 11:53:12.822 -03:00 [Debug] Status: 0 Connections "208.6MB" Memory Used
+2019-02-18 12:13:12.823 -03:00 [Debug] Status: 0 Connections "210MB" Memory Used
+2019-02-18 12:33:12.837 -03:00 [Debug] Status: 0 Connections "211.7MB" Memory Used
+2019-02-18 12:53:12.837 -03:00 [Debug] Status: 0 Connections "213.2MB" Memory Used
+2019-02-18 13:13:12.837 -03:00 [Debug] Status: 0 Connections "213.2MB" Memory Used
+2019-02-18 13:33:12.842 -03:00 [Debug] Status: 0 Connections "212.1MB" Memory Used
+2019-02-18 13:53:12.838 -03:00 [Debug] Status: 0 Connections "217.3MB" Memory Used
+2019-02-18 14:13:12.839 -03:00 [Debug] Status: 0 Connections "217.9MB" Memory Used
+2019-02-18 14:33:12.843 -03:00 [Debug] Status: 0 Connections "140.8MB" Memory Used
+2019-02-18 14:53:12.840 -03:00 [Debug] Status: 0 Connections "150.3MB" Memory Used
+2019-02-18 15:13:12.840 -03:00 [Debug] Status: 0 Connections "152.4MB" Memory Used
+2019-02-18 15:33:12.853 -03:00 [Debug] Status: 0 Connections "150.7MB" Memory Used
+2019-02-18 15:53:12.854 -03:00 [Debug] Status: 0 Connections "159.2MB" Memory Used
+2019-02-18 16:13:12.858 -03:00 [Debug] Status: 0 Connections "159.9MB" Memory Used
+2019-02-18 16:33:12.857 -03:00 [Debug] Status: 0 Connections "161.5MB" Memory Used
+2019-02-18 16:53:12.869 -03:00 [Debug] Status: 0 Connections "162.9MB" Memory Used
+2019-02-18 17:13:12.873 -03:00 [Debug] Status: 0 Connections "164.6MB" Memory Used
+2019-02-18 17:33:12.871 -03:00 [Debug] Status: 0 Connections "165.6MB" Memory Used
+2019-02-18 17:53:12.875 -03:00 [Debug] Status: 0 Connections "166.2MB" Memory Used
+2019-02-18 18:13:12.872 -03:00 [Debug] Status: 0 Connections "168.3MB" Memory Used
+2019-02-18 18:33:12.877 -03:00 [Debug] Status: 0 Connections "166.5MB" Memory Used
+2019-02-18 18:53:12.878 -03:00 [Debug] Status: 0 Connections "169.8MB" Memory Used
+2019-02-18 19:13:12.889 -03:00 [Debug] Status: 0 Connections "167.9MB" Memory Used
+2019-02-18 19:33:12.890 -03:00 [Debug] Status: 0 Connections "168MB" Memory Used
+2019-02-18 19:53:12.898 -03:00 [Debug] Status: 0 Connections "167.5MB" Memory Used
+2019-02-18 20:13:12.906 -03:00 [Debug] Status: 0 Connections "167.7MB" Memory Used
+2019-02-18 21:52:51.541 -03:00 [Debug] Status: 0 Connections "170.5MB" Memory Used
+2019-02-18 22:12:51.544 -03:00 [Debug] Status: 0 Connections "168.7MB" Memory Used
+2019-02-18 23:43:14.978 -03:00 [Debug] Status: 0 Connections "169.5MB" Memory Used

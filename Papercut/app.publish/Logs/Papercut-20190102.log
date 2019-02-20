@@ -1,0 +1,81 @@
+2019-01-02 08:48:37.757 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"]
+2019-01-02 08:48:39.056 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-01-02 08:48:39.058 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-01-02 08:48:39.059 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\"
+2019-01-02 08:48:39.060 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"
+2019-01-02 08:48:43.052 -03:00 [Verbose] Binding "Papercut.Views.MainView" and "Papercut.ViewModels.MainViewModel".
+2019-01-02 08:48:43.053 -03:00 [Verbose] Setting DC of "Papercut.Views.MainView" to "Papercut.ViewModels.MainViewModel".
+2019-01-02 08:48:43.053 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MainViewModel" to "Papercut.Views.MainView".
+2019-01-02 08:48:43.053 -03:00 [Verbose] Attaching "Papercut.Views.MainView" to "Papercut.ViewModels.MainViewModel".
+2019-01-02 08:48:43.085 -03:00 [Verbose] Action Convention Applied: Action "ForwardSelected" on element "ForwardSelected".
+2019-01-02 08:48:43.431 -03:00 [Verbose] Binding Convention Not Applied: Element "Overlay" did not match a property.
+2019-01-02 08:48:43.432 -03:00 [Verbose] ViewModel bound on "MessageListViewModel".
+2019-01-02 08:48:43.519 -03:00 [Verbose] Binding "Papercut.Views.MessageListView" and "Papercut.ViewModels.MessageListViewModel".
+2019-01-02 08:48:43.519 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageListView" to "Papercut.ViewModels.MessageListViewModel".
+2019-01-02 08:48:43.519 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageListViewModel" to "Papercut.Views.MessageListView".
+2019-01-02 08:48:43.519 -03:00 [Verbose] Attaching "Papercut.Views.MessageListView" to "Papercut.ViewModels.MessageListViewModel".
+2019-01-02 08:48:43.529 -03:00 [Verbose] Binding Convention Not Applied: Element "MessagesList" did not match a property.
+2019-01-02 08:48:43.529 -03:00 [Verbose] Binding Convention Applied: Element "MessageListViewModel".
+2019-01-02 08:48:43.529 -03:00 [Verbose] ViewModel bound on "MessageDetailViewModel".
+2019-01-02 08:48:43.647 -03:00 [Verbose] Binding "Papercut.Views.MessageDetailView" and "Papercut.ViewModels.MessageDetailViewModel".
+2019-01-02 08:48:43.647 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageDetailView" to "Papercut.ViewModels.MessageDetailViewModel".
+2019-01-02 08:48:43.647 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageDetailViewModel" to "Papercut.Views.MessageDetailView".
+2019-01-02 08:48:43.647 -03:00 [Verbose] Attaching "Papercut.Views.MessageDetailView" to "Papercut.ViewModels.MessageDetailViewModel".
+2019-01-02 08:48:43.648 -03:00 [Verbose] ContentTemplate applied to "Items".
+2019-01-02 08:48:43.650 -03:00 [Verbose] SelectedItem binding applied to "Items".
+2019-01-02 08:48:43.650 -03:00 [Verbose] Header template applied to "Items".
+2019-01-02 08:48:43.650 -03:00 [Verbose] Binding Convention Applied: Element "Items".
+2019-01-02 08:48:43.650 -03:00 [Verbose] Binding Convention Applied: Element "From".
+2019-01-02 08:48:43.650 -03:00 [Verbose] Binding Convention Applied: Element "To".
+2019-01-02 08:48:43.650 -03:00 [Verbose] Binding Convention Applied: Element "CC".
+2019-01-02 08:48:43.650 -03:00 [Verbose] Binding Convention Applied: Element "Bcc".
+2019-01-02 08:48:43.651 -03:00 [Verbose] Binding Convention Applied: Element "Date".
+2019-01-02 08:48:43.651 -03:00 [Verbose] Binding Convention Applied: Element "Subject".
+2019-01-02 08:48:43.651 -03:00 [Verbose] Binding Convention Applied: Element "MessageDetailViewModel".
+2019-01-02 08:48:43.651 -03:00 [Verbose] Binding Convention Not Applied: Element "DeleteSelected" did not match a property.
+2019-01-02 08:48:43.651 -03:00 [Verbose] Binding Convention Not Applied: Element "image1" did not match a property.
+2019-01-02 08:48:43.651 -03:00 [Verbose] Binding Convention Not Applied: Element "versionLabel" did not match a property.
+2019-01-02 08:48:43.653 -03:00 [Verbose] Activating "Papercut.ViewModels.MainViewModel".
+2019-01-02 08:48:43.654 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageListViewModel".
+2019-01-02 08:48:43.655 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageDetailViewModel".
+2019-01-02 08:48:44.751 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2019-01-02 08:48:44.930 -03:00 [Verbose] Binding "Papercut.Views.MessageDetailHtmlView" and "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2019-01-02 08:48:44.930 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageDetailHtmlView" to "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2019-01-02 08:48:44.930 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageDetailHtmlViewModel" to "Papercut.Views.MessageDetailHtmlView".
+2019-01-02 08:48:44.930 -03:00 [Verbose] Attaching "Papercut.Views.MessageDetailHtmlView" to "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2019-01-02 08:48:44.930 -03:00 [Verbose] Binding Convention Not Applied: Element "htmlView" did not match a property.
+2019-01-02 08:48:46.855 -03:00 [Verbose] "Action: MessageListKeyDown" availability update.
+2019-01-02 08:48:46.857 -03:00 [Verbose] "Action: MessageListKeyDown" availability update.
+2019-01-02 08:48:47.177 -03:00 [Verbose] "Action: OnNavigating" availability update.
+2019-01-02 08:48:47.177 -03:00 [Verbose] "Action: OnNavigating" availability update.
+2019-01-02 08:48:47.188 -03:00 [Verbose] "Action: ForwardSelected" availability update.
+2019-01-02 08:48:47.188 -03:00 [Verbose] "Action: ForwardSelected" availability update.
+2019-01-02 08:48:47.193 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2019-01-02 08:48:47.193 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2019-01-02 08:48:47.193 -03:00 [Verbose] Binding "System.Windows.Controls.Button: Delete" and "Papercut.ViewModels.MessageListViewModel".
+2019-01-02 08:48:47.194 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageListViewModel" to "System.Windows.Controls.Button: Delete".
+2019-01-02 08:48:47.194 -03:00 [Verbose] Attaching "System.Windows.Controls.Button: Delete" to "Papercut.ViewModels.MessageListViewModel".
+2019-01-02 08:48:47.194 -03:00 [Verbose] Action Convention Applied: Action "DeleteSelected" on element "DeleteSelected".
+2019-01-02 08:48:47.198 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2019-01-02 08:48:47.198 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2019-01-02 08:48:47.198 -03:00 [Verbose] Binding Convention Not Applied: Element "Border" did not match a property.
+2019-01-02 08:48:47.198 -03:00 [Verbose] Binding Convention Not Applied: Element "DisabledVisualElement" did not match a property.
+2019-01-02 08:48:47.198 -03:00 [Verbose] Binding Convention Not Applied: Element "PART_ContentPresenter" did not match a property.
+2019-01-02 08:48:47.198 -03:00 [Verbose] Binding Convention Not Applied: Element "PART_ContentPresenter" did not match a property.
+2019-01-02 08:48:47.198 -03:00 [Verbose] "Action: GoToSite" availability update.
+2019-01-02 08:48:47.198 -03:00 [Verbose] "Action: GoToSite" availability update.
+2019-01-02 08:48:47.198 -03:00 [Verbose] "Action: ToggleLog" availability update.
+2019-01-02 08:48:47.198 -03:00 [Verbose] "Action: ToggleLog" availability update.
+2019-01-02 08:48:47.199 -03:00 [Verbose] "Action: ShowRulesConfiguration" availability update.
+2019-01-02 08:48:47.199 -03:00 [Verbose] "Action: ShowRulesConfiguration" availability update.
+2019-01-02 08:48:47.199 -03:00 [Verbose] "Action: ShowOptions" availability update.
+2019-01-02 08:48:47.199 -03:00 [Verbose] "Action: ShowOptions" availability update.
+2019-01-02 08:48:47.199 -03:00 [Verbose] "Action: Exit" availability update.
+2019-01-02 08:48:47.199 -03:00 [Verbose] "Action: Exit" availability update.
+2019-01-02 08:48:49.180 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\rules.json" on AppReady
+2019-01-02 08:48:49.738 -03:00 [Information] Starting Server Papercut
+2019-01-02 08:48:49.773 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2019-01-02 08:48:49.999 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2019-01-02 08:48:50.509 -03:00 [Information] Starting Server Smtp
+2019-01-02 08:48:50.509 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2019-01-02 08:48:51.973 -03:00 [Verbose] Invoking "Action: OnNavigating".

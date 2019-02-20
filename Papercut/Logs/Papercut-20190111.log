@@ -1,0 +1,328 @@
+2019-01-11 09:26:34.237 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\OneDrive - ITX Corp\SERQUEST\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\", "C:\Documents\ITX\OneDrive - ITX Corp\SERQUEST\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\Incoming"]
+2019-01-11 09:26:34.312 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-01-11 09:26:34.314 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-01-11 09:26:34.314 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\SERQUEST\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\"
+2019-01-11 09:26:34.315 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\SERQUEST\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\Incoming"
+2019-01-11 09:26:35.501 -03:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2019-01-11 09:26:35.501 -03:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "1.0.0.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2019-01-11 09:26:35.501 -03:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2019-01-11 09:26:35.991 -03:00 [Error] Can not start HTTP server at port 37408.
+System.AggregateException: One or more errors occurred. ---> System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Papercut.Module.WebUI.WebServer.StartHttpServer() in C:\Downloads\Papercut-develop\src\Papercut.Module.WebUI\WebServer.cs:line 69
+---> (Inner Exception #0) System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)<---
+
+2019-01-11 09:26:36.045 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\OneDrive - ITX Corp\SERQUEST\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\rules.json" on AppReady
+2019-01-11 09:26:36.091 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2019-01-11 09:26:36.564 -03:00 [Information] Starting Server Papercut
+2019-01-11 09:26:36.565 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2019-01-11 09:26:36.603 -03:00 [Information] Starting Server Smtp
+2019-01-11 09:26:36.604 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2019-01-11 09:30:10.178 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 09:30:10.193 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 09:30:10.196 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 09:30:10.229 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 09:30:10.229 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 09:30:10.229 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:30:10.230 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:30:10.232 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:30:10.232 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 09:30:10.232 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 09:30:10.233 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:30:10.240 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:30:10.240 -03:00 [Debug] New Connection 1 from "127.0.0.1:52937"
+2019-01-11 09:30:10.241 -03:00 [Debug] Initializing Background Processes...
+2019-01-11 09:30:10.247 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 09:30:10.247 -03:00 [Debug] New Connection 2 from "127.0.0.1:52938"
+2019-01-11 09:30:10.247 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 09:30:10.247 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 09:30:10.247 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 09:30:10.247 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 09:30:10.248 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:30:10.248 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:30:10.248 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:30:10.248 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 09:30:10.248 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 09:30:10.248 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:30:10.248 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:30:10.259 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:30:10.259 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:30:10.457 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111093010437-c951b6.eml"
+2019-01-11 09:30:10.457 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111093010436-53aa3d.eml"
+2019-01-11 09:31:10.269 -03:00 [Debug] Status: 2 Connections "195.4MB" Memory Used
+2019-01-11 09:31:49.171 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 09:31:49.172 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 09:31:49.172 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 09:31:49.172 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 09:31:49.175 -03:00 [Debug] Connection 2 Closed
+2019-01-11 09:31:49.176 -03:00 [Debug] Connection 1 Closed
+2019-01-11 09:51:10.277 -03:00 [Debug] Status: 0 Connections "193.5MB" Memory Used
+2019-01-11 09:52:26.884 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 09:52:26.885 -03:00 [Debug] New Connection 3 from "127.0.0.1:53586"
+2019-01-11 09:52:26.886 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 09:52:26.887 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 09:52:26.887 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 09:52:26.887 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 09:52:26.887 -03:00 [Debug] New Connection 4 from "127.0.0.1:53587"
+2019-01-11 09:52:26.887 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 09:52:26.887 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 09:52:26.888 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:52:26.888 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 09:52:26.888 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:52:26.888 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:52:26.889 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 09:52:26.889 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 09:52:26.889 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 09:52:26.890 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:52:26.890 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 09:52:26.890 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:52:26.890 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:52:26.890 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:52:26.890 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:52:26.891 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 09:52:26.891 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 09:52:26.891 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:52:26.891 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:52:26.893 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:52:26.893 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:52:26.896 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095226894-72bc19.eml"
+2019-01-11 09:52:26.896 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095226894-0c7c71.eml"
+2019-01-11 09:52:43.043 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:52:43.043 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:52:43.044 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 09:52:43.044 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 09:52:43.045 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:52:43.045 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:52:43.046 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:52:43.046 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:52:43.047 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 09:52:43.047 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 09:52:43.047 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:52:43.049 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095243048-ccfb50.eml"
+2019-01-11 09:52:43.049 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:52:43.049 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:52:43.051 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:52:43.087 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095243052-abf184.eml"
+2019-01-11 09:52:50.661 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:52:50.661 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:52:50.662 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 09:52:50.662 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 09:52:50.662 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:52:50.662 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:52:50.662 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:52:50.662 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:52:50.662 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:52:50.662 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 09:52:50.663 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 09:52:50.663 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:52:50.663 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:52:50.663 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:52:50.664 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095250663-524a9b.eml"
+2019-01-11 09:52:50.665 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095250664-7bf0e5.eml"
+2019-01-11 09:53:23.202 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:53:23.202 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:53:23.202 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 09:53:23.202 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 09:53:23.203 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:53:23.203 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:53:23.248 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:53:23.250 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095323248-fd09f5.eml"
+2019-01-11 09:53:23.251 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:53:23.251 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:53:23.813 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 09:53:23.813 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 09:53:23.813 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:53:23.813 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:53:25.798 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:53:25.799 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095325798-fdac5c.eml"
+2019-01-11 09:54:05.927 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 09:54:05.927 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 09:54:05.927 -03:00 [Debug] Connection 3 Closed
+2019-01-11 09:54:49.121 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:54:49.121 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:54:49.122 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 09:54:49.122 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 09:54:49.122 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:54:49.122 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:54:49.123 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:54:49.124 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095449123-28b185.eml"
+2019-01-11 09:54:49.125 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:54:49.125 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:54:49.125 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 09:54:49.125 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 09:54:49.125 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:54:49.125 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:54:49.126 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:54:49.127 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095449126-763797.eml"
+2019-01-11 09:55:41.061 -03:00 [Warning] Failed to End Receive on Async Socket
+System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Papercut.Network.Connection.ContinueProcessReceive(IAsyncResult result) in C:\Downloads\Papercut-develop\src\Papercut.Network\Connection.cs:line 122
+2019-01-11 09:56:09.867 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 09:56:09.868 -03:00 [Debug] New Connection 5 from "127.0.0.1:53663"
+2019-01-11 09:56:09.868 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 09:56:09.870 -03:00 [Debug] New Connection 6 from "127.0.0.1:53664"
+2019-01-11 09:56:09.870 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 09:56:09.870 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 09:56:09.870 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:56:09.870 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 09:56:09.871 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:56:09.871 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:56:09.871 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:56:09.871 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:56:09.871 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 09:56:09.871 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 09:56:09.871 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:56:09.871 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:56:09.871 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:56:09.871 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:56:09.874 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095609872-33be5d.eml"
+2019-01-11 09:56:09.879 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095609872-2d454a.eml"
+2019-01-11 09:57:14.636 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:57:14.636 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:57:14.636 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 09:57:14.636 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 09:57:14.637 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:57:14.637 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:57:14.637 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 09:57:14.637 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 09:57:14.638 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 09:57:14.639 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 09:57:14.639 -03:00 [Debug] Received Line "DATA"
+2019-01-11 09:57:14.639 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 09:57:15.111 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:57:15.111 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 09:57:15.113 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095715112-2d7547.eml"
+2019-01-11 09:57:15.118 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111095715112-93b018.eml"
+2019-01-11 09:58:38.890 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 09:58:38.890 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 09:58:38.890 -03:00 [Debug] Connection 6 Closed
+2019-01-11 09:58:38.890 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 09:58:38.890 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 09:58:38.890 -03:00 [Debug] Connection 5 Closed
+2019-01-11 10:11:10.286 -03:00 [Debug] Status: 1 Connections "201.5MB" Memory Used
+2019-01-11 10:16:10.306 -03:00 [Information] Session timeout, disconnecting 4
+2019-01-11 10:16:10.306 -03:00 [Debug] Connection 4 Closed
+2019-01-11 10:17:41.555 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 10:17:41.555 -03:00 [Debug] New Connection 7 from "127.0.0.1:54034"
+2019-01-11 10:17:41.555 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 10:17:41.555 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 10:17:41.556 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 10:17:41.556 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 10:17:41.556 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 10:17:41.556 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 10:17:41.556 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 10:17:41.556 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 10:17:41.556 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 10:17:41.556 -03:00 [Debug] Received Line "DATA"
+2019-01-11 10:17:41.556 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 10:17:41.557 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 10:17:41.558 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111101741557-7872f6.eml"
+2019-01-11 10:17:41.559 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 10:17:41.559 -03:00 [Debug] New Connection 8 from "127.0.0.1:54035"
+2019-01-11 10:17:41.559 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 10:17:41.559 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 10:17:41.559 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 10:17:41.559 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 10:17:41.559 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 10:17:41.559 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-11 10:17:41.559 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-11 10:17:41.559 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 10:17:41.560 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 10:17:41.560 -03:00 [Debug] Received Line "DATA"
+2019-01-11 10:17:41.560 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 10:17:41.560 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 10:17:41.561 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111101741560-2e55c4.eml"
+2019-01-11 10:19:20.582 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 10:19:20.582 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 10:19:20.582 -03:00 [Debug] Connection 7 Closed
+2019-01-11 10:19:20.583 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 10:19:20.583 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 10:19:20.584 -03:00 [Debug] Connection 8 Closed
+2019-01-11 10:22:44.569 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 10:22:44.569 -03:00 [Debug] New Connection 9 from "127.0.0.1:54234"
+2019-01-11 10:22:44.569 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 10:22:44.569 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 10:22:44.570 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 10:22:44.570 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 10:22:44.570 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 10:22:44.570 -03:00 [Debug] Received Line "MAIL FROM:<no-reply@serquest.com>"
+2019-01-11 10:22:44.570 -03:00 [Debug] Sending Line "250 <no-reply@serquest.com> OK"
+2019-01-11 10:22:44.570 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2019-01-11 10:22:44.570 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2019-01-11 10:22:44.570 -03:00 [Debug] Received Line "DATA"
+2019-01-11 10:22:44.570 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 10:22:44.571 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 10:22:44.581 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111102244575-b96dee.eml"
+2019-01-11 10:22:44.581 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 10:22:44.581 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 10:22:44.581 -03:00 [Debug] Connection 9 Closed
+2019-01-11 10:22:44.620 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-11 10:22:44.620 -03:00 [Debug] New Connection 10 from "127.0.0.1:54235"
+2019-01-11 10:22:44.620 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-11 10:22:44.620 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-11 10:22:44.620 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-11 10:22:44.620 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-11 10:22:44.620 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 10:22:44.621 -03:00 [Debug] Received Line "MAIL FROM:<no-reply@serquest.com>"
+2019-01-11 10:22:44.621 -03:00 [Debug] Sending Line "250 <no-reply@serquest.com> OK"
+2019-01-11 10:22:44.621 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@gmail.com>"
+2019-01-11 10:22:44.621 -03:00 [Debug] Sending Line "250 <jdesposito@gmail.com> OK"
+2019-01-11 10:22:44.621 -03:00 [Debug] Received Line "DATA"
+2019-01-11 10:22:44.621 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-11 10:22:44.621 -03:00 [Debug] Sending Line "250 OK"
+2019-01-11 10:22:44.623 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190111102244622-a177c1.eml"
+2019-01-11 10:22:44.623 -03:00 [Debug] Received Line "QUIT"
+2019-01-11 10:22:44.623 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-11 10:22:44.623 -03:00 [Debug] Connection 10 Closed
+2019-01-11 10:31:10.280 -03:00 [Debug] Status: 0 Connections "170.4MB" Memory Used
+2019-01-11 10:51:10.281 -03:00 [Debug] Status: 0 Connections "122.4MB" Memory Used
+2019-01-11 11:11:10.277 -03:00 [Debug] Status: 0 Connections "125.5MB" Memory Used
+2019-01-11 11:31:10.277 -03:00 [Debug] Status: 0 Connections "124.8MB" Memory Used
+2019-01-11 11:51:10.291 -03:00 [Debug] Status: 0 Connections "124.3MB" Memory Used
+2019-01-11 12:11:10.307 -03:00 [Debug] Status: 0 Connections "127MB" Memory Used
+2019-01-11 12:31:10.309 -03:00 [Debug] Status: 0 Connections "125MB" Memory Used
+2019-01-11 12:51:10.308 -03:00 [Debug] Status: 0 Connections "125.9MB" Memory Used
+2019-01-11 13:11:10.309 -03:00 [Debug] Status: 0 Connections "124.1MB" Memory Used
+2019-01-11 13:31:10.309 -03:00 [Debug] Status: 0 Connections "124MB" Memory Used
+2019-01-11 13:51:10.325 -03:00 [Debug] Status: 0 Connections "126.6MB" Memory Used
+2019-01-11 14:11:10.324 -03:00 [Debug] Status: 0 Connections "124.9MB" Memory Used
+2019-01-11 14:31:10.324 -03:00 [Debug] Status: 0 Connections "124.8MB" Memory Used
+2019-01-11 14:51:10.323 -03:00 [Debug] Status: 0 Connections "127.5MB" Memory Used
+2019-01-11 15:11:10.323 -03:00 [Debug] Status: 0 Connections "126.8MB" Memory Used
+2019-01-11 15:31:10.322 -03:00 [Debug] Status: 0 Connections "126.1MB" Memory Used
+2019-01-11 15:51:10.325 -03:00 [Debug] Status: 0 Connections "123.3MB" Memory Used
+2019-01-11 16:11:10.338 -03:00 [Debug] Status: 0 Connections "127.9MB" Memory Used
+2019-01-11 16:31:13.765 -03:00 [Debug] Status: 0 Connections "128.1MB" Memory Used
+2019-01-11 16:51:13.764 -03:00 [Debug] Status: 0 Connections "129MB" Memory Used
+2019-01-11 17:11:13.765 -03:00 [Debug] Status: 0 Connections "127.1MB" Memory Used
+2019-01-11 17:31:13.766 -03:00 [Debug] Status: 0 Connections "127.7MB" Memory Used
+2019-01-11 17:51:13.780 -03:00 [Debug] Status: 0 Connections "127.7MB" Memory Used
+2019-01-11 18:11:13.789 -03:00 [Debug] Status: 0 Connections "128.3MB" Memory Used

@@ -1,0 +1,171 @@
+2019-01-31 08:09:13.429 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\Papercut\", "C:\Documents\ITX\Papercut\Incoming"]
+2019-01-31 08:09:14.539 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-01-31 08:09:14.543 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-01-31 08:09:14.544 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\Papercut\"
+2019-01-31 08:09:14.544 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\Papercut\Incoming"
+2019-01-31 08:09:46.016 -03:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2019-01-31 08:09:46.016 -03:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "1.0.0.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2019-01-31 08:09:46.016 -03:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2019-01-31 08:09:52.067 -03:00 [Error] Can not start HTTP server at port 37408.
+System.AggregateException: One or more errors occurred. ---> System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Papercut.Module.WebUI.WebServer.StartHttpServer() in C:\Downloads\Papercut-develop\src\Papercut.Module.WebUI\WebServer.cs:line 69
+---> (Inner Exception #0) System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)<---
+
+2019-01-31 08:09:52.296 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\Papercut\rules.json" on AppReady
+2019-01-31 08:09:52.890 -03:00 [Information] Starting Server Papercut
+2019-01-31 08:09:52.894 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2019-01-31 08:09:52.911 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2019-01-31 08:09:53.416 -03:00 [Information] Starting Server Smtp
+2019-01-31 08:09:53.416 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2019-01-31 12:19:37.727 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-31 12:19:37.731 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-31 12:19:37.733 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-31 12:19:37.733 -03:00 [Debug] New Connection 1 from "127.0.0.1:60747"
+2019-01-31 12:19:37.734 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-31 12:19:37.734 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-31 12:19:37.734 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 12:19:37.734 -03:00 [Debug] Initializing Background Processes...
+2019-01-31 12:19:37.734 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-31 12:19:37.736 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-31 12:19:37.736 -03:00 [Debug] Received Line "RCPT TO:<a@a.com>"
+2019-01-31 12:19:37.737 -03:00 [Debug] Sending Line "250 <a@a.com> OK"
+2019-01-31 12:19:37.737 -03:00 [Debug] Received Line "DATA"
+2019-01-31 12:19:37.738 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-31 12:19:37.740 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 12:19:37.770 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190131121937749-52b817.eml"
+2019-01-31 12:19:37.773 -03:00 [Debug] Received Line "QUIT"
+2019-01-31 12:19:37.774 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-31 12:19:37.777 -03:00 [Debug] Connection 1 Closed
+2019-01-31 12:20:37.781 -03:00 [Debug] Status: 0 Connections "148MB" Memory Used
+2019-01-31 12:35:05.123 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-31 12:35:05.123 -03:00 [Debug] New Connection 2 from "127.0.0.1:63155"
+2019-01-31 12:35:05.123 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-31 12:35:05.123 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-31 12:35:05.123 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-31 12:35:05.124 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-31 12:35:05.124 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 12:35:05.124 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-31 12:35:05.124 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-31 12:35:05.124 -03:00 [Debug] Received Line "RCPT TO:<a@a.com>"
+2019-01-31 12:35:05.124 -03:00 [Debug] Sending Line "250 <a@a.com> OK"
+2019-01-31 12:35:05.124 -03:00 [Debug] Received Line "DATA"
+2019-01-31 12:35:05.124 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-31 12:35:05.125 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 12:35:05.128 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190131123505125-1ae43a.eml"
+2019-01-31 12:35:05.129 -03:00 [Debug] Received Line "QUIT"
+2019-01-31 12:35:05.129 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-31 12:35:05.129 -03:00 [Debug] Connection 2 Closed
+2019-01-31 12:40:37.791 -03:00 [Debug] Status: 0 Connections "150.4MB" Memory Used
+2019-01-31 13:00:37.792 -03:00 [Debug] Status: 0 Connections "152.2MB" Memory Used
+2019-01-31 13:20:40.449 -03:00 [Debug] Status: 0 Connections "125MB" Memory Used
+2019-01-31 13:41:57.117 -03:00 [Debug] Status: 0 Connections "128.3MB" Memory Used
+2019-01-31 13:42:09.007 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-31 13:42:09.007 -03:00 [Debug] New Connection 3 from "127.0.0.1:54595"
+2019-01-31 13:42:09.007 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-31 13:42:09.008 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-31 13:42:09.008 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-31 13:42:09.008 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-31 13:42:09.008 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 13:42:09.008 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-31 13:42:09.008 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-31 13:42:09.008 -03:00 [Debug] Received Line "RCPT TO:<a@1.com>"
+2019-01-31 13:42:09.008 -03:00 [Debug] Sending Line "250 <a@1.com> OK"
+2019-01-31 13:42:09.009 -03:00 [Debug] Received Line "DATA"
+2019-01-31 13:42:09.009 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-31 13:42:09.009 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 13:42:09.011 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190131134209010-f07ab1.eml"
+2019-01-31 13:42:09.011 -03:00 [Debug] Received Line "QUIT"
+2019-01-31 13:42:09.011 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-31 13:42:09.011 -03:00 [Debug] Connection 3 Closed
+2019-01-31 13:50:51.196 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-31 13:50:51.197 -03:00 [Debug] New Connection 4 from "127.0.0.1:55154"
+2019-01-31 13:50:51.197 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-31 13:50:51.197 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-31 13:50:51.197 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-31 13:50:51.197 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-31 13:50:51.197 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 13:50:51.197 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-31 13:50:51.198 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-31 13:50:51.198 -03:00 [Debug] Received Line "RCPT TO:<a@a.com>"
+2019-01-31 13:50:51.198 -03:00 [Debug] Sending Line "250 <a@a.com> OK"
+2019-01-31 13:50:51.198 -03:00 [Debug] Received Line "DATA"
+2019-01-31 13:50:51.198 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-31 13:50:51.198 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 13:50:51.200 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190131135051199-ac978f.eml"
+2019-01-31 13:50:51.201 -03:00 [Debug] Received Line "QUIT"
+2019-01-31 13:50:51.201 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-31 13:50:51.201 -03:00 [Debug] Connection 4 Closed
+2019-01-31 13:50:59.243 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2019-01-31 13:50:59.243 -03:00 [Debug] New Connection 5 from "127.0.0.1:55162"
+2019-01-31 13:50:59.243 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2019-01-31 13:50:59.243 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2019-01-31 13:50:59.244 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2019-01-31 13:50:59.244 -03:00 [Debug] Sending Line "250-8BITMIME"
+2019-01-31 13:50:59.244 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 13:50:59.244 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2019-01-31 13:50:59.244 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2019-01-31 13:50:59.244 -03:00 [Debug] Received Line "RCPT TO:<a@1.com>"
+2019-01-31 13:50:59.244 -03:00 [Debug] Sending Line "250 <a@1.com> OK"
+2019-01-31 13:50:59.244 -03:00 [Debug] Received Line "DATA"
+2019-01-31 13:50:59.244 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2019-01-31 13:50:59.245 -03:00 [Debug] Sending Line "250 OK"
+2019-01-31 13:50:59.246 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20190131135059245-504b02.eml"
+2019-01-31 13:50:59.246 -03:00 [Debug] Received Line "QUIT"
+2019-01-31 13:50:59.246 -03:00 [Debug] Sending Line "221 Goodbye!"
+2019-01-31 13:50:59.247 -03:00 [Debug] Connection 5 Closed
+2019-01-31 14:01:57.113 -03:00 [Debug] Status: 0 Connections "135.9MB" Memory Used
+2019-01-31 14:20:15.449 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\Papercut\", "C:\Documents\ITX\Papercut\Incoming"]
+2019-01-31 14:20:20.639 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-01-31 14:20:20.641 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2019-01-31 14:20:20.641 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\Papercut\"
+2019-01-31 14:20:20.642 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\Papercut\Incoming"
+2019-01-31 14:22:30.877 -03:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2019-01-31 14:22:30.877 -03:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "1.0.0.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2019-01-31 14:22:30.877 -03:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2019-01-31 14:22:50.342 -03:00 [Error] Can not start HTTP server at port 37408.
+System.AggregateException: One or more errors occurred. ---> System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Papercut.Module.WebUI.WebServer.StartHttpServer() in C:\Downloads\Papercut-develop\src\Papercut.Module.WebUI\WebServer.cs:line 69
+---> (Inner Exception #0) System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://*:37408/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)<---
+
+2019-01-31 14:22:51.990 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\Papercut\rules.json" on AppReady
+2019-01-31 14:22:53.029 -03:00 [Information] Starting Server Papercut
+2019-01-31 14:22:53.278 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2019-01-31 14:22:55.066 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2019-01-31 14:22:55.583 -03:00 [Information] Starting Server Smtp
+2019-01-31 14:22:55.583 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25

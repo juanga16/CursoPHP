@@ -1,0 +1,132 @@
+2018-12-17 09:13:30.917 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"]
+2018-12-17 09:13:31.014 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2018-12-17 09:13:31.019 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2018-12-17 09:13:31.020 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\"
+2018-12-17 09:13:31.020 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"
+2018-12-17 09:13:33.050 -03:00 [Verbose] Binding "Papercut.Views.MainView" and "Papercut.ViewModels.MainViewModel".
+2018-12-17 09:13:33.051 -03:00 [Verbose] Setting DC of "Papercut.Views.MainView" to "Papercut.ViewModels.MainViewModel".
+2018-12-17 09:13:33.051 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MainViewModel" to "Papercut.Views.MainView".
+2018-12-17 09:13:33.052 -03:00 [Verbose] Attaching "Papercut.Views.MainView" to "Papercut.ViewModels.MainViewModel".
+2018-12-17 09:13:33.067 -03:00 [Verbose] Action Convention Applied: Action "ForwardSelected" on element "ForwardSelected".
+2018-12-17 09:13:33.217 -03:00 [Verbose] Binding Convention Not Applied: Element "Overlay" did not match a property.
+2018-12-17 09:13:33.218 -03:00 [Verbose] ViewModel bound on "MessageListViewModel".
+2018-12-17 09:13:33.279 -03:00 [Verbose] Binding "Papercut.Views.MessageListView" and "Papercut.ViewModels.MessageListViewModel".
+2018-12-17 09:13:33.279 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageListView" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-17 09:13:33.279 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageListViewModel" to "Papercut.Views.MessageListView".
+2018-12-17 09:13:33.279 -03:00 [Verbose] Attaching "Papercut.Views.MessageListView" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-17 09:13:33.290 -03:00 [Verbose] Binding Convention Not Applied: Element "MessagesList" did not match a property.
+2018-12-17 09:13:33.290 -03:00 [Verbose] Binding Convention Applied: Element "MessageListViewModel".
+2018-12-17 09:13:33.291 -03:00 [Verbose] ViewModel bound on "MessageDetailViewModel".
+2018-12-17 09:13:33.400 -03:00 [Verbose] Binding "Papercut.Views.MessageDetailView" and "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-17 09:13:33.400 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageDetailView" to "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-17 09:13:33.400 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageDetailViewModel" to "Papercut.Views.MessageDetailView".
+2018-12-17 09:13:33.400 -03:00 [Verbose] Attaching "Papercut.Views.MessageDetailView" to "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-17 09:13:33.402 -03:00 [Verbose] ContentTemplate applied to "Items".
+2018-12-17 09:13:33.403 -03:00 [Verbose] SelectedItem binding applied to "Items".
+2018-12-17 09:13:33.404 -03:00 [Verbose] Header template applied to "Items".
+2018-12-17 09:13:33.404 -03:00 [Verbose] Binding Convention Applied: Element "Items".
+2018-12-17 09:13:33.404 -03:00 [Verbose] Binding Convention Applied: Element "From".
+2018-12-17 09:13:33.404 -03:00 [Verbose] Binding Convention Applied: Element "To".
+2018-12-17 09:13:33.404 -03:00 [Verbose] Binding Convention Applied: Element "CC".
+2018-12-17 09:13:33.405 -03:00 [Verbose] Binding Convention Applied: Element "Bcc".
+2018-12-17 09:13:33.405 -03:00 [Verbose] Binding Convention Applied: Element "Date".
+2018-12-17 09:13:33.405 -03:00 [Verbose] Binding Convention Applied: Element "Subject".
+2018-12-17 09:13:33.405 -03:00 [Verbose] Binding Convention Applied: Element "MessageDetailViewModel".
+2018-12-17 09:13:33.405 -03:00 [Verbose] Binding Convention Not Applied: Element "DeleteSelected" did not match a property.
+2018-12-17 09:13:33.405 -03:00 [Verbose] Binding Convention Not Applied: Element "image1" did not match a property.
+2018-12-17 09:13:33.405 -03:00 [Verbose] Binding Convention Not Applied: Element "versionLabel" did not match a property.
+2018-12-17 09:13:33.410 -03:00 [Verbose] Activating "Papercut.ViewModels.MainViewModel".
+2018-12-17 09:13:33.410 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageListViewModel".
+2018-12-17 09:13:33.412 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-17 09:13:33.806 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-17 09:13:33.870 -03:00 [Verbose] Binding "Papercut.Views.MessageDetailHtmlView" and "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-17 09:13:33.870 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageDetailHtmlView" to "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-17 09:13:33.870 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageDetailHtmlViewModel" to "Papercut.Views.MessageDetailHtmlView".
+2018-12-17 09:13:33.870 -03:00 [Verbose] Attaching "Papercut.Views.MessageDetailHtmlView" to "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-17 09:13:33.871 -03:00 [Verbose] Binding Convention Not Applied: Element "htmlView" did not match a property.
+2018-12-17 09:13:34.638 -03:00 [Verbose] "Action: MessageListKeyDown" availability update.
+2018-12-17 09:13:34.639 -03:00 [Verbose] "Action: MessageListKeyDown" availability update.
+2018-12-17 09:13:34.764 -03:00 [Verbose] "Action: OnNavigating" availability update.
+2018-12-17 09:13:34.764 -03:00 [Verbose] "Action: OnNavigating" availability update.
+2018-12-17 09:13:34.765 -03:00 [Verbose] "Action: ForwardSelected" availability update.
+2018-12-17 09:13:34.765 -03:00 [Verbose] "Action: ForwardSelected" availability update.
+2018-12-17 09:13:34.766 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-17 09:13:34.766 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-17 09:13:34.767 -03:00 [Verbose] Binding "System.Windows.Controls.Button: Delete" and "Papercut.ViewModels.MessageListViewModel".
+2018-12-17 09:13:34.767 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageListViewModel" to "System.Windows.Controls.Button: Delete".
+2018-12-17 09:13:34.767 -03:00 [Verbose] Attaching "System.Windows.Controls.Button: Delete" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-17 09:13:34.767 -03:00 [Verbose] Action Convention Applied: Action "DeleteSelected" on element "DeleteSelected".
+2018-12-17 09:13:34.773 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-17 09:13:34.773 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-17 09:13:34.774 -03:00 [Verbose] Binding Convention Not Applied: Element "Border" did not match a property.
+2018-12-17 09:13:34.774 -03:00 [Verbose] Binding Convention Not Applied: Element "DisabledVisualElement" did not match a property.
+2018-12-17 09:13:34.774 -03:00 [Verbose] Binding Convention Not Applied: Element "PART_ContentPresenter" did not match a property.
+2018-12-17 09:13:34.774 -03:00 [Verbose] Binding Convention Not Applied: Element "PART_ContentPresenter" did not match a property.
+2018-12-17 09:13:34.774 -03:00 [Verbose] "Action: GoToSite" availability update.
+2018-12-17 09:13:34.774 -03:00 [Verbose] "Action: GoToSite" availability update.
+2018-12-17 09:13:34.774 -03:00 [Verbose] "Action: ToggleLog" availability update.
+2018-12-17 09:13:34.774 -03:00 [Verbose] "Action: ToggleLog" availability update.
+2018-12-17 09:13:34.775 -03:00 [Verbose] "Action: ShowRulesConfiguration" availability update.
+2018-12-17 09:13:34.775 -03:00 [Verbose] "Action: ShowRulesConfiguration" availability update.
+2018-12-17 09:13:34.775 -03:00 [Verbose] "Action: ShowOptions" availability update.
+2018-12-17 09:13:34.775 -03:00 [Verbose] "Action: ShowOptions" availability update.
+2018-12-17 09:13:34.775 -03:00 [Verbose] "Action: Exit" availability update.
+2018-12-17 09:13:34.775 -03:00 [Verbose] "Action: Exit" availability update.
+2018-12-17 09:13:35.265 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\rules.json" on AppReady
+2018-12-17 09:13:35.274 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2018-12-17 09:13:35.789 -03:00 [Information] Starting Server Smtp
+2018-12-17 09:13:35.806 -03:00 [Information] Starting Server Papercut
+2018-12-17 09:13:35.841 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-17 09:13:35.847 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2018-12-17 09:13:35.848 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-12-17 09:23:45.099 -03:00 [Debug] Sending Line "PAPERCUT"
+2018-12-17 09:23:45.132 -03:00 [Debug] New Connection 1 from "127.0.0.1:50746"
+2018-12-17 09:23:45.132 -03:00 [Debug] Initializing Background Processes...
+2018-12-17 09:23:45.257 -03:00 [Debug] Received Line "{\"CommandType\":1,\"Type\":\"Papercut.Events.ShowMainWindowEvent, Papercut, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":33}"
+2018-12-17 09:23:45.396 -03:00 [Verbose] Incoming Request Received PapercutProtocolRequest { CommandType: Publish, Type: Papercut.Events.ShowMainWindowEvent, ByteSize: 33 }
+2018-12-17 09:23:45.421 -03:00 [Information] Publishing Event Received ShowMainWindowEvent { SelectMostRecentMessage: False } from Remote
+2018-12-17 09:23:45.487 -03:00 [Debug] Connection 1 Closed
+2018-12-17 09:24:45.157 -03:00 [Debug] Status: 0 Connections "176.5MB" Memory Used
+2018-12-17 09:44:45.157 -03:00 [Debug] Status: 0 Connections "169.5MB" Memory Used
+2018-12-17 10:09:34.748 -03:00 [Debug] Status: 0 Connections "170.1MB" Memory Used
+2018-12-17 10:29:34.759 -03:00 [Debug] Status: 0 Connections "180.5MB" Memory Used
+2018-12-17 10:49:34.764 -03:00 [Debug] Status: 0 Connections "173.7MB" Memory Used
+2018-12-17 11:09:34.775 -03:00 [Debug] Status: 0 Connections "173.6MB" Memory Used
+2018-12-17 11:29:34.778 -03:00 [Debug] Status: 0 Connections "169.6MB" Memory Used
+2018-12-17 11:49:34.776 -03:00 [Debug] Status: 0 Connections "169.4MB" Memory Used
+2018-12-17 12:09:34.780 -03:00 [Debug] Status: 0 Connections "169.9MB" Memory Used
+2018-12-17 12:29:34.776 -03:00 [Debug] Status: 0 Connections "169.9MB" Memory Used
+2018-12-17 12:49:34.790 -03:00 [Debug] Status: 0 Connections "170.1MB" Memory Used
+2018-12-17 13:09:34.807 -03:00 [Debug] Status: 0 Connections "170.2MB" Memory Used
+2018-12-17 13:29:34.806 -03:00 [Debug] Status: 0 Connections "170.7MB" Memory Used
+2018-12-17 13:49:34.807 -03:00 [Debug] Status: 0 Connections "170.9MB" Memory Used
+2018-12-17 14:09:34.808 -03:00 [Debug] Status: 0 Connections "170.8MB" Memory Used
+2018-12-17 14:29:34.823 -03:00 [Debug] Status: 0 Connections "104.8MB" Memory Used
+2018-12-17 14:49:34.826 -03:00 [Debug] Status: 0 Connections "105.8MB" Memory Used
+2018-12-17 15:09:34.823 -03:00 [Debug] Status: 0 Connections "106.7MB" Memory Used
+2018-12-17 15:29:34.823 -03:00 [Debug] Status: 0 Connections "118.9MB" Memory Used
+2018-12-17 15:49:34.824 -03:00 [Debug] Status: 0 Connections "120.9MB" Memory Used
+2018-12-17 16:09:34.837 -03:00 [Debug] Status: 0 Connections "120.2MB" Memory Used
+2018-12-17 16:29:34.841 -03:00 [Debug] Status: 0 Connections "121.2MB" Memory Used
+2018-12-17 16:49:34.838 -03:00 [Debug] Status: 0 Connections "120.4MB" Memory Used
+2018-12-17 17:09:34.857 -03:00 [Debug] Status: 0 Connections "121.1MB" Memory Used
+2018-12-17 17:29:36.877 -03:00 [Debug] Status: 0 Connections "121.2MB" Memory Used
+2018-12-17 17:49:36.878 -03:00 [Debug] Status: 0 Connections "120.3MB" Memory Used
+2018-12-17 18:09:36.876 -03:00 [Debug] Status: 0 Connections "121.3MB" Memory Used
+2018-12-17 18:29:36.877 -03:00 [Debug] Status: 0 Connections "120.6MB" Memory Used
+2018-12-17 18:49:36.877 -03:00 [Debug] Status: 0 Connections "121.5MB" Memory Used
+2018-12-17 19:09:36.877 -03:00 [Debug] Status: 0 Connections "121.6MB" Memory Used
+2018-12-17 19:29:36.876 -03:00 [Debug] Status: 0 Connections "120.5MB" Memory Used
+2018-12-17 19:49:36.884 -03:00 [Debug] Status: 0 Connections "121.4MB" Memory Used
+2018-12-17 20:09:36.880 -03:00 [Debug] Status: 0 Connections "121.9MB" Memory Used
+2018-12-17 20:29:36.877 -03:00 [Debug] Status: 0 Connections "122.4MB" Memory Used
+2018-12-17 20:49:36.878 -03:00 [Debug] Status: 0 Connections "121.4MB" Memory Used
+2018-12-17 21:09:36.879 -03:00 [Debug] Status: 0 Connections "122.6MB" Memory Used
+2018-12-17 21:29:36.884 -03:00 [Debug] Status: 0 Connections "122.6MB" Memory Used
+2018-12-17 21:49:36.892 -03:00 [Debug] Status: 0 Connections "121.6MB" Memory Used
+2018-12-17 22:09:36.891 -03:00 [Debug] Status: 0 Connections "121.5MB" Memory Used
+2018-12-17 22:29:36.892 -03:00 [Debug] Status: 0 Connections "122.6MB" Memory Used
+2018-12-17 22:49:36.900 -03:00 [Debug] Status: 0 Connections "121.7MB" Memory Used
+2018-12-17 23:09:36.912 -03:00 [Debug] Status: 0 Connections "121.9MB" Memory Used
+2018-12-17 23:29:36.911 -03:00 [Debug] Status: 0 Connections "123.1MB" Memory Used
+2018-12-17 23:49:36.914 -03:00 [Debug] Status: 0 Connections "119.7MB" Memory Used

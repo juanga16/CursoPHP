@@ -1,0 +1,138 @@
+2018-12-22 06:15:09.788 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"]
+2018-12-22 06:15:10.404 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2018-12-22 06:15:10.406 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2018-12-22 06:15:10.407 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\"
+2018-12-22 06:15:10.407 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"
+2018-12-22 06:15:10.728 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-22 06:15:10.732 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:46:28, Name: "20181220134628897-c59449.eml", FileSize: "20.1KB", DisplayText: "20-Dec-18 01:46:28 PM (20.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134628897-c59449.eml" }
+2018-12-22 06:15:10.732 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:45:41, Name: "20181220134541776-26c267.eml", FileSize: "36.2KB", DisplayText: "20-Dec-18 01:45:41 PM (36.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134541776-26c267.eml" }
+2018-12-22 06:15:10.732 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:35:52, Name: "20181220123552935-7b14c7.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:35:52 PM (12KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123552935-7b14c7.eml" }
+2018-12-22 06:15:10.732 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:34:29, Name: "20181220123429307-f7033a.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:34:29 PM (12KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123429307-f7033a.eml" }
+2018-12-22 06:15:10.733 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:27:42, Name: "20181220122742873-1eb7a8.eml", FileSize: "16.1KB", DisplayText: "20-Dec-18 12:27:42 PM (16.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122742873-1eb7a8.eml" }
+2018-12-22 06:15:10.733 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:24:08, Name: "20181220122408315-b4f51a.eml", FileSize: "32.2KB", DisplayText: "20-Dec-18 12:24:08 PM (32.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122408315-b4f51a.eml" }
+2018-12-22 06:15:10.733 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:21:06, Name: "20181220122106297-a5888a.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 12:21:06 PM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122106297-a5888a.eml" }
+2018-12-22 06:15:10.733 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:09:45, Name: "20181220120945607-5ec96d.eml", FileSize: "64.5KB", DisplayText: "20-Dec-18 12:09:45 PM (64.5KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220120945607-5ec96d.eml" }
+2018-12-22 06:15:10.733 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 11:35:51, Name: "20181220113551528-793d28.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 11:35:51 AM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113551528-793d28.eml" }
+2018-12-22 06:15:10.733 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 11:32:30, Name: "20181220113230198-9e8878.eml", FileSize: "52.4KB", DisplayText: "20-Dec-18 11:32:30 AM (52.4KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113230198-9e8878.eml" }
+2018-12-22 06:15:10.734 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 10:22:27, Name: "20181220102227014-826791.eml", FileSize: "20.3KB", DisplayText: "20-Dec-18 10:22:27 AM (20.3KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220102227014-826791.eml" }
+2018-12-22 06:15:10.734 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 10:05:45, Name: "20181220100545891-5e7cf6.eml", FileSize: "46.2KB", DisplayText: "20-Dec-18 10:05:45 AM (46.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220100545891-5e7cf6.eml" }
+2018-12-22 06:15:10.734 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:34:56, Name: "20181219203456762-c32aad.eml", FileSize: "60.5KB", DisplayText: "19-Dec-18 08:34:56 PM (60.5KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203456762-c32aad.eml" }
+2018-12-22 06:15:10.734 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:31:46, Name: "20181219203146670-86f7e7.eml", FileSize: "56.4KB", DisplayText: "19-Dec-18 08:31:46 PM (56.4KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203146670-86f7e7.eml" }
+2018-12-22 06:15:10.734 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:30:04, Name: "20181219203004962-f4e8b2.eml", FileSize: "32.2KB", DisplayText: "19-Dec-18 08:30:04 PM (32.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203004962-f4e8b2.eml" }
+2018-12-22 06:15:10.859 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:10.859 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:10.859 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:10.859 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:10.859 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:10.859 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:10.860 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:10.860 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:10.943 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:46:28, Name: "20181220134628897-c59449.eml", FileSize: "20.1KB", DisplayText: "20-Dec-18 01:46:28 PM (20.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134628897-c59449.eml" }
+2018-12-22 06:15:10.956 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-22 06:15:10.967 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:34:29, Name: "20181220123429307-f7033a.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:34:29 PM (12KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123429307-f7033a.eml" }
+2018-12-22 06:15:10.978 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:21:06, Name: "20181220122106297-a5888a.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 12:21:06 PM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122106297-a5888a.eml" }
+2018-12-22 06:15:10.991 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:45:41, Name: "20181220134541776-26c267.eml", FileSize: "36.2KB", DisplayText: "20-Dec-18 01:45:41 PM (36.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134541776-26c267.eml" }
+2018-12-22 06:15:11.014 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:24:08, Name: "20181220122408315-b4f51a.eml", FileSize: "32.2KB", DisplayText: "20-Dec-18 12:24:08 PM (32.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122408315-b4f51a.eml" }
+2018-12-22 06:15:11.026 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:35:52, Name: "20181220123552935-7b14c7.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:35:52 PM (12KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123552935-7b14c7.eml" }
+2018-12-22 06:15:11.114 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:27:42, Name: "20181220122742873-1eb7a8.eml", FileSize: "16.1KB", DisplayText: "20-Dec-18 12:27:42 PM (16.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122742873-1eb7a8.eml" }
+2018-12-22 06:15:11.597 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:11.855 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:09:45, Name: "20181220120945607-5ec96d.eml", FileSize: "64.5KB", DisplayText: "20-Dec-18 12:09:45 PM (64.5KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220120945607-5ec96d.eml" }
+2018-12-22 06:15:13.353 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:13.631 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 11:35:51, Name: "20181220113551528-793d28.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 11:35:51 AM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113551528-793d28.eml" }
+2018-12-22 06:15:14.118 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:14.221 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 11:32:30, Name: "20181220113230198-9e8878.eml", FileSize: "52.4KB", DisplayText: "20-Dec-18 11:32:30 AM (52.4KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113230198-9e8878.eml" }
+2018-12-22 06:15:14.234 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:14.234 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:14.234 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:14.234 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:14.240 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:15:14.410 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:30:04, Name: "20181219203004962-f4e8b2.eml", FileSize: "32.2KB", DisplayText: "19-Dec-18 08:30:04 PM (32.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203004962-f4e8b2.eml" }
+2018-12-22 06:15:14.455 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:34:56, Name: "20181219203456762-c32aad.eml", FileSize: "60.5KB", DisplayText: "19-Dec-18 08:34:56 PM (60.5KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203456762-c32aad.eml" }
+2018-12-22 06:15:14.479 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 10:05:45, Name: "20181220100545891-5e7cf6.eml", FileSize: "46.2KB", DisplayText: "20-Dec-18 10:05:45 AM (46.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220100545891-5e7cf6.eml" }
+2018-12-22 06:15:14.530 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:31:46, Name: "20181219203146670-86f7e7.eml", FileSize: "56.4KB", DisplayText: "19-Dec-18 08:31:46 PM (56.4KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203146670-86f7e7.eml" }
+2018-12-22 06:15:14.541 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 10:22:27, Name: "20181220102227014-826791.eml", FileSize: "20.3KB", DisplayText: "20-Dec-18 10:22:27 AM (20.3KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220102227014-826791.eml" }
+2018-12-22 06:15:54.295 -03:00 [Verbose] Binding "Papercut.Views.MainView" and "Papercut.ViewModels.MainViewModel".
+2018-12-22 06:15:54.295 -03:00 [Verbose] Setting DC of "Papercut.Views.MainView" to "Papercut.ViewModels.MainViewModel".
+2018-12-22 06:15:54.296 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MainViewModel" to "Papercut.Views.MainView".
+2018-12-22 06:15:54.296 -03:00 [Verbose] Attaching "Papercut.Views.MainView" to "Papercut.ViewModels.MainViewModel".
+2018-12-22 06:15:54.418 -03:00 [Verbose] Action Convention Applied: Action "ForwardSelected" on element "ForwardSelected".
+2018-12-22 06:15:55.078 -03:00 [Verbose] Binding Convention Not Applied: Element "Overlay" did not match a property.
+2018-12-22 06:15:55.080 -03:00 [Verbose] ViewModel bound on "MessageListViewModel".
+2018-12-22 06:15:55.401 -03:00 [Verbose] Binding "Papercut.Views.MessageListView" and "Papercut.ViewModels.MessageListViewModel".
+2018-12-22 06:15:55.401 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageListView" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-22 06:15:55.401 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageListViewModel" to "Papercut.Views.MessageListView".
+2018-12-22 06:15:55.401 -03:00 [Verbose] Attaching "Papercut.Views.MessageListView" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-22 06:15:55.403 -03:00 [Verbose] Binding Convention Not Applied: Element "MessagesList" did not match a property.
+2018-12-22 06:15:55.403 -03:00 [Verbose] Binding Convention Applied: Element "MessageListViewModel".
+2018-12-22 06:15:55.403 -03:00 [Verbose] ViewModel bound on "MessageDetailViewModel".
+2018-12-22 06:15:55.902 -03:00 [Verbose] Binding "Papercut.Views.MessageDetailView" and "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-22 06:15:55.902 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageDetailView" to "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-22 06:15:55.902 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageDetailViewModel" to "Papercut.Views.MessageDetailView".
+2018-12-22 06:15:55.903 -03:00 [Verbose] Attaching "Papercut.Views.MessageDetailView" to "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-22 06:15:55.904 -03:00 [Verbose] ContentTemplate applied to "Items".
+2018-12-22 06:15:55.905 -03:00 [Verbose] SelectedItem binding applied to "Items".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Header template applied to "Items".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Applied: Element "Items".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Applied: Element "From".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Applied: Element "To".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Applied: Element "CC".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Applied: Element "Bcc".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Applied: Element "Date".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Applied: Element "Subject".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Applied: Element "MessageDetailViewModel".
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Not Applied: Element "DeleteSelected" did not match a property.
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Not Applied: Element "image1" did not match a property.
+2018-12-22 06:15:55.906 -03:00 [Verbose] Binding Convention Not Applied: Element "versionLabel" did not match a property.
+2018-12-22 06:15:55.908 -03:00 [Verbose] Activating "Papercut.ViewModels.MainViewModel".
+2018-12-22 06:15:55.909 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageListViewModel".
+2018-12-22 06:15:55.910 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-22 06:15:58.104 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-22 06:15:58.383 -03:00 [Verbose] Binding "Papercut.Views.MessageDetailHtmlView" and "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-22 06:15:58.383 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageDetailHtmlView" to "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-22 06:15:58.383 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageDetailHtmlViewModel" to "Papercut.Views.MessageDetailHtmlView".
+2018-12-22 06:15:58.383 -03:00 [Verbose] Attaching "Papercut.Views.MessageDetailHtmlView" to "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-22 06:15:58.383 -03:00 [Verbose] Binding Convention Not Applied: Element "htmlView" did not match a property.
+2018-12-22 06:16:00.347 -03:00 [Verbose] "Action: MessageListKeyDown" availability update.
+2018-12-22 06:16:00.348 -03:00 [Verbose] "Action: MessageListKeyDown" availability update.
+2018-12-22 06:16:00.756 -03:00 [Verbose] "Action: OnNavigating" availability update.
+2018-12-22 06:16:00.756 -03:00 [Verbose] "Action: OnNavigating" availability update.
+2018-12-22 06:16:00.757 -03:00 [Verbose] "Action: ForwardSelected" availability update.
+2018-12-22 06:16:00.757 -03:00 [Verbose] "Action: ForwardSelected" availability update.
+2018-12-22 06:16:00.791 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-22 06:16:00.791 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-22 06:16:00.792 -03:00 [Verbose] Binding "System.Windows.Controls.Button: Delete (1)" and "Papercut.ViewModels.MessageListViewModel".
+2018-12-22 06:16:00.792 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageListViewModel" to "System.Windows.Controls.Button: Delete (1)".
+2018-12-22 06:16:00.792 -03:00 [Verbose] Attaching "System.Windows.Controls.Button: Delete (1)" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-22 06:16:00.792 -03:00 [Verbose] Action Convention Applied: Action "DeleteSelected" on element "DeleteSelected".
+2018-12-22 06:16:00.797 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-22 06:16:00.797 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-22 06:16:00.797 -03:00 [Verbose] Binding Convention Not Applied: Element "Border" did not match a property.
+2018-12-22 06:16:00.797 -03:00 [Verbose] Binding Convention Not Applied: Element "DisabledVisualElement" did not match a property.
+2018-12-22 06:16:00.797 -03:00 [Verbose] Binding Convention Not Applied: Element "PART_ContentPresenter" did not match a property.
+2018-12-22 06:16:00.797 -03:00 [Verbose] Binding Convention Not Applied: Element "PART_ContentPresenter" did not match a property.
+2018-12-22 06:16:00.797 -03:00 [Verbose] "Action: GoToSite" availability update.
+2018-12-22 06:16:00.797 -03:00 [Verbose] "Action: GoToSite" availability update.
+2018-12-22 06:16:00.797 -03:00 [Verbose] "Action: ToggleLog" availability update.
+2018-12-22 06:16:00.797 -03:00 [Verbose] "Action: ToggleLog" availability update.
+2018-12-22 06:16:00.797 -03:00 [Verbose] "Action: ShowRulesConfiguration" availability update.
+2018-12-22 06:16:00.798 -03:00 [Verbose] "Action: ShowRulesConfiguration" availability update.
+2018-12-22 06:16:00.798 -03:00 [Verbose] "Action: ShowOptions" availability update.
+2018-12-22 06:16:00.798 -03:00 [Verbose] "Action: ShowOptions" availability update.
+2018-12-22 06:16:00.798 -03:00 [Verbose] "Action: Exit" availability update.
+2018-12-22 06:16:00.798 -03:00 [Verbose] "Action: Exit" availability update.
+2018-12-22 06:16:03.142 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\rules.json" on AppReady
+2018-12-22 06:16:03.699 -03:00 [Information] Starting Server Papercut
+2018-12-22 06:16:03.709 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2018-12-22 06:16:03.732 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2018-12-22 06:16:04.248 -03:00 [Information] Starting Server Smtp
+2018-12-22 06:16:04.248 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-12-22 06:16:06.560 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-22 06:16:06.560 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-22 06:16:06.560 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-22 06:16:07.090 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-22 06:16:07.150 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-19792bb8-ce63-43e7-84fe-16de417a4516\index.html"
+2018-12-22 06:16:07.230 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-22 06:16:07.251 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-22 06:16:07.298 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-22 06:16:07.298 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-288c6a90-bada-4216-8520-47e4ce834efe\index.html"
+2018-12-22 06:16:07.301 -03:00 [Verbose] Invoking "Action: OnNavigating".

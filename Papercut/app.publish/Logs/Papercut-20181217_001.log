@@ -1,0 +1,10 @@
+2018-12-17 09:23:45.055 -03:00 [Debug] Second process run. Shutting this process and pushing show event to other process.
+2018-12-17 09:23:45.100 -03:00 [Debug] Publishing ShowMainWindowEvent { SelectMostRecentMessage: False } to Remote
+2018-12-17 09:23:45.108 -03:00 [Debug] Publishing ShowMainWindowEvent { SelectMostRecentMessage: False } to Remote
+2018-12-17 09:23:45.492 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"]
+2018-12-17 09:23:45.494 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2018-12-17 09:23:45.495 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2018-12-17 09:23:45.496 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\"
+2018-12-17 09:23:45.496 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"
+2018-12-17 09:23:45.516 -03:00 [Information] Saved 0 to "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\rules.json"
+2018-12-17 09:23:45.517 -03:00 [Debug] Saving Updated Settings...

@@ -1,0 +1,456 @@
+2018-12-20 09:04:59.305 -03:00 [Information] Loading Messages from the Following Path(s) ["C:\Users\jgdes\AppData\Roaming\Papercut", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\", "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"]
+2018-12-20 09:05:00.580 -03:00 [Information] Default Message Save Path is Set to "C:\Users\jgdes\AppData\Roaming\Papercut"
+2018-12-20 09:05:00.583 -03:00 [Debug] Adding FileSystemWatcher for "C:\Users\jgdes\AppData\Roaming\Papercut"
+2018-12-20 09:05:00.637 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\"
+2018-12-20 09:05:00.637 -03:00 [Debug] Adding FileSystemWatcher for "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\Incoming"
+2018-12-20 09:05:03.758 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:34:56, Name: "20181219203456762-c32aad.eml", FileSize: "60.5KB", DisplayText: "19-Dec-18 08:34:56 PM (60.5KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203456762-c32aad.eml" }
+2018-12-20 09:05:03.760 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:31:46, Name: "20181219203146670-86f7e7.eml", FileSize: "56.4KB", DisplayText: "19-Dec-18 08:31:46 PM (56.4KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203146670-86f7e7.eml" }
+2018-12-20 09:05:03.760 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:30:04, Name: "20181219203004962-f4e8b2.eml", FileSize: "32.2KB", DisplayText: "19-Dec-18 08:30:04 PM (32.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203004962-f4e8b2.eml" }
+2018-12-20 09:05:03.935 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 09:05:03.935 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 09:05:03.935 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 09:05:03.949 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:30:04, Name: "20181219203004962-f4e8b2.eml", FileSize: "32.2KB", DisplayText: "19-Dec-18 08:30:04 PM (32.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203004962-f4e8b2.eml" }
+2018-12-20 09:05:04.019 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:34:56, Name: "20181219203456762-c32aad.eml", FileSize: "60.5KB", DisplayText: "19-Dec-18 08:34:56 PM (60.5KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203456762-c32aad.eml" }
+2018-12-20 09:05:04.030 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: null, ModifiedDate: 12/19/2018 20:31:46, Name: "20181219203146670-86f7e7.eml", FileSize: "56.4KB", DisplayText: "19-Dec-18 08:31:46 PM (56.4KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203146670-86f7e7.eml" }
+2018-12-20 09:05:19.284 -03:00 [Verbose] Binding "Papercut.Views.MainView" and "Papercut.ViewModels.MainViewModel".
+2018-12-20 09:05:19.286 -03:00 [Verbose] Setting DC of "Papercut.Views.MainView" to "Papercut.ViewModels.MainViewModel".
+2018-12-20 09:05:19.287 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MainViewModel" to "Papercut.Views.MainView".
+2018-12-20 09:05:19.287 -03:00 [Verbose] Attaching "Papercut.Views.MainView" to "Papercut.ViewModels.MainViewModel".
+2018-12-20 09:05:19.734 -03:00 [Verbose] Action Convention Applied: Action "ForwardSelected" on element "ForwardSelected".
+2018-12-20 09:05:23.657 -03:00 [Verbose] Binding Convention Not Applied: Element "Overlay" did not match a property.
+2018-12-20 09:05:23.658 -03:00 [Verbose] ViewModel bound on "MessageListViewModel".
+2018-12-20 09:05:24.213 -03:00 [Verbose] Binding "Papercut.Views.MessageListView" and "Papercut.ViewModels.MessageListViewModel".
+2018-12-20 09:05:24.213 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageListView" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-20 09:05:24.213 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageListViewModel" to "Papercut.Views.MessageListView".
+2018-12-20 09:05:24.213 -03:00 [Verbose] Attaching "Papercut.Views.MessageListView" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-20 09:05:24.214 -03:00 [Verbose] Binding Convention Not Applied: Element "MessagesList" did not match a property.
+2018-12-20 09:05:24.214 -03:00 [Verbose] Binding Convention Applied: Element "MessageListViewModel".
+2018-12-20 09:05:24.214 -03:00 [Verbose] ViewModel bound on "MessageDetailViewModel".
+2018-12-20 09:05:26.370 -03:00 [Verbose] Binding "Papercut.Views.MessageDetailView" and "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-20 09:05:26.370 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageDetailView" to "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-20 09:05:26.370 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageDetailViewModel" to "Papercut.Views.MessageDetailView".
+2018-12-20 09:05:26.370 -03:00 [Verbose] Attaching "Papercut.Views.MessageDetailView" to "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-20 09:05:26.371 -03:00 [Verbose] ContentTemplate applied to "Items".
+2018-12-20 09:05:26.372 -03:00 [Verbose] SelectedItem binding applied to "Items".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Header template applied to "Items".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Applied: Element "Items".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Applied: Element "From".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Applied: Element "To".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Applied: Element "CC".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Applied: Element "Bcc".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Applied: Element "Date".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Applied: Element "Subject".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Applied: Element "MessageDetailViewModel".
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Not Applied: Element "DeleteSelected" did not match a property.
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Not Applied: Element "image1" did not match a property.
+2018-12-20 09:05:26.373 -03:00 [Verbose] Binding Convention Not Applied: Element "versionLabel" did not match a property.
+2018-12-20 09:05:26.376 -03:00 [Verbose] Activating "Papercut.ViewModels.MainViewModel".
+2018-12-20 09:05:26.376 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageListViewModel".
+2018-12-20 09:05:26.377 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageDetailViewModel".
+2018-12-20 09:05:30.899 -03:00 [Verbose] Activating "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-20 09:05:32.075 -03:00 [Verbose] Binding "Papercut.Views.MessageDetailHtmlView" and "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-20 09:05:32.075 -03:00 [Verbose] Setting DC of "Papercut.Views.MessageDetailHtmlView" to "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-20 09:05:32.075 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageDetailHtmlViewModel" to "Papercut.Views.MessageDetailHtmlView".
+2018-12-20 09:05:32.075 -03:00 [Verbose] Attaching "Papercut.Views.MessageDetailHtmlView" to "Papercut.ViewModels.MessageDetailHtmlViewModel".
+2018-12-20 09:05:32.075 -03:00 [Verbose] Binding Convention Not Applied: Element "htmlView" did not match a property.
+2018-12-20 09:05:37.908 -03:00 [Verbose] "Action: MessageListKeyDown" availability update.
+2018-12-20 09:05:37.909 -03:00 [Verbose] "Action: MessageListKeyDown" availability update.
+2018-12-20 09:05:40.771 -03:00 [Verbose] "Action: OnNavigating" availability update.
+2018-12-20 09:05:40.771 -03:00 [Verbose] "Action: OnNavigating" availability update.
+2018-12-20 09:05:41.271 -03:00 [Verbose] "Action: ForwardSelected" availability update.
+2018-12-20 09:05:41.271 -03:00 [Verbose] "Action: ForwardSelected" availability update.
+2018-12-20 09:05:41.410 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-20 09:05:41.410 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-20 09:05:41.414 -03:00 [Verbose] Binding "System.Windows.Controls.Button: Delete (1)" and "Papercut.ViewModels.MessageListViewModel".
+2018-12-20 09:05:41.414 -03:00 [Verbose] Attaching message handler "Papercut.ViewModels.MessageListViewModel" to "System.Windows.Controls.Button: Delete (1)".
+2018-12-20 09:05:41.414 -03:00 [Verbose] Attaching "System.Windows.Controls.Button: Delete (1)" to "Papercut.ViewModels.MessageListViewModel".
+2018-12-20 09:05:41.415 -03:00 [Verbose] Action Convention Applied: Action "DeleteSelected" on element "DeleteSelected".
+2018-12-20 09:05:41.420 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-20 09:05:41.420 -03:00 [Verbose] "Action: DeleteSelected" availability update.
+2018-12-20 09:05:41.420 -03:00 [Verbose] Binding Convention Not Applied: Element "Border" did not match a property.
+2018-12-20 09:05:41.420 -03:00 [Verbose] Binding Convention Not Applied: Element "DisabledVisualElement" did not match a property.
+2018-12-20 09:05:41.420 -03:00 [Verbose] Binding Convention Not Applied: Element "PART_ContentPresenter" did not match a property.
+2018-12-20 09:05:41.420 -03:00 [Verbose] Binding Convention Not Applied: Element "PART_ContentPresenter" did not match a property.
+2018-12-20 09:05:41.420 -03:00 [Verbose] "Action: GoToSite" availability update.
+2018-12-20 09:05:41.420 -03:00 [Verbose] "Action: GoToSite" availability update.
+2018-12-20 09:05:41.421 -03:00 [Verbose] "Action: ToggleLog" availability update.
+2018-12-20 09:05:41.421 -03:00 [Verbose] "Action: ToggleLog" availability update.
+2018-12-20 09:05:41.421 -03:00 [Verbose] "Action: ShowRulesConfiguration" availability update.
+2018-12-20 09:05:41.421 -03:00 [Verbose] "Action: ShowRulesConfiguration" availability update.
+2018-12-20 09:05:41.421 -03:00 [Verbose] "Action: ShowOptions" availability update.
+2018-12-20 09:05:41.421 -03:00 [Verbose] "Action: ShowOptions" availability update.
+2018-12-20 09:05:41.421 -03:00 [Verbose] "Action: Exit" availability update.
+2018-12-20 09:05:41.421 -03:00 [Verbose] "Action: Exit" availability update.
+2018-12-20 09:05:56.612 -03:00 [Information] Attempting to Load Rules from "C:\Documents\ITX\OneDrive - ITX Corp\RAID\Juan\Papercut-develop\src\Papercut.UI\bin\Debug\app.publish\rules.json" on AppReady
+2018-12-20 09:05:58.736 -03:00 [Information] Starting Server Papercut
+2018-12-20 09:06:00.192 -03:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37402
+2018-12-20 09:06:06.751 -03:00 [Debug] Setting up Rule Dispatcher Observable
+2018-12-20 09:06:07.256 -03:00 [Information] Starting Server Smtp
+2018-12-20 09:06:07.256 -03:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-12-20 09:06:33.641 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/19/2018 20:34:56, Name: "20181219203456762-c32aad.eml", FileSize: "60.5KB", DisplayText: "19-Dec-18 08:34:56 PM (60.5KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203456762-c32aad.eml" }
+2018-12-20 09:06:33.641 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 09:06:33.641 -03:00 [Verbose] MimeMessage Load for MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/19/2018 20:34:56, Name: "20181219203456762-c32aad.eml", FileSize: "60.5KB", DisplayText: "19-Dec-18 08:34:56 PM (60.5KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181219203456762-c32aad.eml" }
+2018-12-20 09:06:35.498 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-1874d8df-8e68-4c84-87ef-532a4cdfafe2\index.html"
+2018-12-20 09:06:35.677 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 10:05:45.865 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 10:05:45.868 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 10:05:45.870 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 10:05:45.870 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 10:05:45.870 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 10:05:45.870 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 10:05:45.871 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 10:05:45.872 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 10:05:45.872 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 10:05:45.873 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 10:05:45.873 -03:00 [Debug] Received Line "DATA"
+2018-12-20 10:05:45.874 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 10:05:45.884 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 10:05:45.887 -03:00 [Debug] New Connection 1 from "127.0.0.1:52370"
+2018-12-20 10:05:45.888 -03:00 [Debug] Initializing Background Processes...
+2018-12-20 10:05:45.906 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220100545891-5e7cf6.eml"
+2018-12-20 10:05:46.396 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 10:05:45, Name: "20181220100545891-5e7cf6.eml", FileSize: "46.2KB", DisplayText: "20-Dec-18 10:05:45 AM (46.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220100545891-5e7cf6.eml" }
+2018-12-20 10:05:46.396 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 10:05:46.396 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 10:05:45, Name: "20181220100545891-5e7cf6.eml", FileSize: "46.2KB", DisplayText: "20-Dec-18 10:05:45 AM (46.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220100545891-5e7cf6.eml" }
+2018-12-20 10:05:46.402 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 10:05:45, Name: "20181220100545891-5e7cf6.eml", FileSize: "46.2KB", DisplayText: "20-Dec-18 10:05:45 AM (46.2KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220100545891-5e7cf6.eml" }
+2018-12-20 10:05:46.662 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Bingo Bango Bongo tickets and receipt", ModifiedDate: 12/20/2018 10:05:45, Name: "20181220100545891-5e7cf6.eml", FileSize: "46.2KB", DisplayText: "20-Dec-18 10:05:45 AM (46.2KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220100545891-5e7cf6.eml" }
+2018-12-20 10:05:46.711 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 10:05:46.712 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-538a9c86-dbf8-4b03-b0ab-be8deff4eb74\index.html"
+2018-12-20 10:05:46.722 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 10:06:45.915 -03:00 [Debug] Status: 1 Connections "169MB" Memory Used
+2018-12-20 10:07:24.868 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 10:07:24.868 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 10:07:24.871 -03:00 [Debug] Connection 1 Closed
+2018-12-20 10:22:27.011 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 10:22:27.011 -03:00 [Debug] New Connection 2 from "127.0.0.1:52925"
+2018-12-20 10:22:27.011 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 10:22:27.012 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 10:22:27.012 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 10:22:27.012 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 10:22:27.012 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 10:22:27.012 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 10:22:27.012 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 10:22:27.012 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 10:22:27.012 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 10:22:27.012 -03:00 [Debug] Received Line "DATA"
+2018-12-20 10:22:27.012 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 10:22:27.013 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 10:22:27.015 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220102227014-826791.eml"
+2018-12-20 10:22:27.515 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 10:22:27, Name: "20181220102227014-826791.eml", FileSize: "20.3KB", DisplayText: "20-Dec-18 10:22:27 AM (20.3KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220102227014-826791.eml" }
+2018-12-20 10:22:27.515 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 10:22:27.515 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 10:22:27, Name: "20181220102227014-826791.eml", FileSize: "20.3KB", DisplayText: "20-Dec-18 10:22:27 AM (20.3KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220102227014-826791.eml" }
+2018-12-20 10:22:27.517 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 10:22:27, Name: "20181220102227014-826791.eml", FileSize: "20.3KB", DisplayText: "20-Dec-18 10:22:27 AM (20.3KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220102227014-826791.eml" }
+2018-12-20 10:22:27.744 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Bingo Bango Bongo tickets and receipt", ModifiedDate: 12/20/2018 10:22:27, Name: "20181220102227014-826791.eml", FileSize: "20.3KB", DisplayText: "20-Dec-18 10:22:27 AM (20.3KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220102227014-826791.eml" }
+2018-12-20 10:22:27.825 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 10:22:27.825 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-6b0c8942-8de4-4666-ad96-bef6d3086b21\index.html"
+2018-12-20 10:22:27.832 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 10:22:27.947 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Bingo Bango Bongo tickets and receipt", ModifiedDate: 12/20/2018 10:22:27, Name: "20181220102227014-826791.eml", FileSize: "20.3KB", DisplayText: "20-Dec-18 10:22:27 AM (20.3KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220102227014-826791.eml" }
+2018-12-20 10:22:27.949 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 10:22:27.949 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-196ee11c-6444-444e-a574-54a6672ef7c3\index.html"
+2018-12-20 10:22:27.954 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 10:24:06.022 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 10:24:06.023 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 10:24:06.023 -03:00 [Debug] Connection 2 Closed
+2018-12-20 10:26:45.924 -03:00 [Debug] Status: 0 Connections "167.9MB" Memory Used
+2018-12-20 10:46:45.938 -03:00 [Debug] Status: 0 Connections "168.5MB" Memory Used
+2018-12-20 11:06:45.937 -03:00 [Debug] Status: 0 Connections "168.6MB" Memory Used
+2018-12-20 11:26:45.944 -03:00 [Debug] Status: 0 Connections "169.2MB" Memory Used
+2018-12-20 11:32:30.195 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 11:32:30.195 -03:00 [Debug] New Connection 3 from "127.0.0.1:58439"
+2018-12-20 11:32:30.195 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 11:32:30.195 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 11:32:30.195 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 11:32:30.195 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 11:32:30.195 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 11:32:30.195 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 11:32:30.196 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 11:32:30.196 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 11:32:30.196 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 11:32:30.196 -03:00 [Debug] Received Line "DATA"
+2018-12-20 11:32:30.196 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 11:32:30.197 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 11:32:30.199 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113230198-9e8878.eml"
+2018-12-20 11:32:30.699 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 11:32:30, Name: "20181220113230198-9e8878.eml", FileSize: "52.4KB", DisplayText: "20-Dec-18 11:32:30 AM (52.4KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113230198-9e8878.eml" }
+2018-12-20 11:32:30.700 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 11:32:30.700 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 11:32:30, Name: "20181220113230198-9e8878.eml", FileSize: "52.4KB", DisplayText: "20-Dec-18 11:32:30 AM (52.4KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113230198-9e8878.eml" }
+2018-12-20 11:32:30.701 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 11:32:30, Name: "20181220113230198-9e8878.eml", FileSize: "52.4KB", DisplayText: "20-Dec-18 11:32:30 AM (52.4KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113230198-9e8878.eml" }
+2018-12-20 11:32:30.917 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 11:32:30, Name: "20181220113230198-9e8878.eml", FileSize: "52.4KB", DisplayText: "20-Dec-18 11:32:30 AM (52.4KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113230198-9e8878.eml" }
+2018-12-20 11:32:30.922 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 11:32:30.923 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-9fd73c99-8ffa-4f0a-b675-b846c7694366\index.html"
+2018-12-20 11:32:30.926 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 11:33:25.583 -03:00 [Warning] Failed to End Receive on Async Socket
+System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Papercut.Network.Connection.ContinueProcessReceive(IAsyncResult result) in C:\Downloads\Papercut-develop\src\Papercut.Network\Connection.cs:line 122
+2018-12-20 11:35:51.525 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 11:35:51.525 -03:00 [Debug] New Connection 4 from "127.0.0.1:58775"
+2018-12-20 11:35:51.525 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 11:35:51.526 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 11:35:51.526 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 11:35:51.526 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 11:35:51.526 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 11:35:51.526 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 11:35:51.526 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 11:35:51.526 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 11:35:51.527 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 11:35:51.527 -03:00 [Debug] Received Line "DATA"
+2018-12-20 11:35:51.527 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 11:35:51.528 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 11:35:51.529 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113551528-793d28.eml"
+2018-12-20 11:35:52.029 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 11:35:51, Name: "20181220113551528-793d28.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 11:35:51 AM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113551528-793d28.eml" }
+2018-12-20 11:35:52.030 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 11:35:52.030 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 11:35:51, Name: "20181220113551528-793d28.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 11:35:51 AM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113551528-793d28.eml" }
+2018-12-20 11:35:52.032 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 11:35:51, Name: "20181220113551528-793d28.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 11:35:51 AM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113551528-793d28.eml" }
+2018-12-20 11:35:52.253 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 11:35:51, Name: "20181220113551528-793d28.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 11:35:51 AM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220113551528-793d28.eml" }
+2018-12-20 11:35:52.264 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 11:35:52.265 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-58d7bde5-88c6-44aa-9116-f644de4a21d8\index.html"
+2018-12-20 11:35:52.269 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 11:46:45.936 -03:00 [Debug] Status: 2 Connections "174.6MB" Memory Used
+2018-12-20 11:53:35.269 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 11:53:35.269 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 11:53:35.269 -03:00 [Debug] Connection 4 Closed
+2018-12-20 11:56:45.977 -03:00 [Information] Session timeout, disconnecting 3
+2018-12-20 11:56:45.977 -03:00 [Debug] Connection 3 Closed
+2018-12-20 12:06:45.937 -03:00 [Debug] Status: 0 Connections "174.8MB" Memory Used
+2018-12-20 12:09:45.602 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 12:09:45.603 -03:00 [Debug] New Connection 5 from "127.0.0.1:62123"
+2018-12-20 12:09:45.603 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 12:09:45.603 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 12:09:45.603 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 12:09:45.603 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 12:09:45.603 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:09:45.603 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 12:09:45.603 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 12:09:45.603 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 12:09:45.603 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 12:09:45.604 -03:00 [Debug] Received Line "DATA"
+2018-12-20 12:09:45.604 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 12:09:45.606 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:09:45.609 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220120945607-5ec96d.eml"
+2018-12-20 12:09:46.108 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 12:09:45, Name: "20181220120945607-5ec96d.eml", FileSize: "64.5KB", DisplayText: "20-Dec-18 12:09:45 PM (64.5KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220120945607-5ec96d.eml" }
+2018-12-20 12:09:46.109 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 12:09:46.109 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 12:09:45, Name: "20181220120945607-5ec96d.eml", FileSize: "64.5KB", DisplayText: "20-Dec-18 12:09:45 PM (64.5KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220120945607-5ec96d.eml" }
+2018-12-20 12:09:46.111 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:09:45, Name: "20181220120945607-5ec96d.eml", FileSize: "64.5KB", DisplayText: "20-Dec-18 12:09:45 PM (64.5KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220120945607-5ec96d.eml" }
+2018-12-20 12:09:46.421 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 12:09:45, Name: "20181220120945607-5ec96d.eml", FileSize: "64.5KB", DisplayText: "20-Dec-18 12:09:45 PM (64.5KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220120945607-5ec96d.eml" }
+2018-12-20 12:09:46.427 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:09:46.429 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-70de5b5b-b189-4777-b8b5-c26bfded25a1\index.html"
+2018-12-20 12:09:46.434 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:11:24.615 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 12:11:24.615 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 12:11:24.615 -03:00 [Debug] Connection 5 Closed
+2018-12-20 12:21:06.294 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 12:21:06.295 -03:00 [Debug] New Connection 6 from "127.0.0.1:63288"
+2018-12-20 12:21:06.295 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 12:21:06.295 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 12:21:06.295 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 12:21:06.295 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 12:21:06.295 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:21:06.295 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 12:21:06.295 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 12:21:06.295 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 12:21:06.295 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 12:21:06.296 -03:00 [Debug] Received Line "DATA"
+2018-12-20 12:21:06.296 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 12:21:06.296 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:21:06.298 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122106297-a5888a.eml"
+2018-12-20 12:21:06.798 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 12:21:06, Name: "20181220122106297-a5888a.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 12:21:06 PM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122106297-a5888a.eml" }
+2018-12-20 12:21:06.799 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 12:21:06.799 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 12:21:06, Name: "20181220122106297-a5888a.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 12:21:06 PM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122106297-a5888a.eml" }
+2018-12-20 12:21:06.802 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:21:06, Name: "20181220122106297-a5888a.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 12:21:06 PM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122106297-a5888a.eml" }
+2018-12-20 12:21:07.017 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 12:21:06, Name: "20181220122106297-a5888a.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 12:21:06 PM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122106297-a5888a.eml" }
+2018-12-20 12:21:07.021 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:21:07.021 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-edd241d7-561a-428a-9b0e-b85ce893b51e\index.html"
+2018-12-20 12:21:07.027 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:22:05.609 -03:00 [Warning] Failed to End Receive on Async Socket
+System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Papercut.Network.Connection.ContinueProcessReceive(IAsyncResult result) in C:\Downloads\Papercut-develop\src\Papercut.Network\Connection.cs:line 122
+2018-12-20 12:24:08.308 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 12:24:08.308 -03:00 [Debug] New Connection 7 from "127.0.0.1:63630"
+2018-12-20 12:24:08.308 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 12:24:08.309 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 12:24:08.309 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 12:24:08.309 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 12:24:08.310 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:24:08.310 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 12:24:08.310 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 12:24:08.310 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 12:24:08.310 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 12:24:08.310 -03:00 [Debug] Received Line "DATA"
+2018-12-20 12:24:08.310 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 12:24:08.314 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:24:08.318 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122408315-b4f51a.eml"
+2018-12-20 12:24:08.836 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 12:24:08, Name: "20181220122408315-b4f51a.eml", FileSize: "32.2KB", DisplayText: "20-Dec-18 12:24:08 PM (32.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122408315-b4f51a.eml" }
+2018-12-20 12:24:08.836 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 12:24:08.837 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 12:24:08, Name: "20181220122408315-b4f51a.eml", FileSize: "32.2KB", DisplayText: "20-Dec-18 12:24:08 PM (32.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122408315-b4f51a.eml" }
+2018-12-20 12:24:08.842 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:24:08, Name: "20181220122408315-b4f51a.eml", FileSize: "32.2KB", DisplayText: "20-Dec-18 12:24:08 PM (32.2KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122408315-b4f51a.eml" }
+2018-12-20 12:24:09.079 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 12:24:08, Name: "20181220122408315-b4f51a.eml", FileSize: "32.2KB", DisplayText: "20-Dec-18 12:24:08 PM (32.2KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122408315-b4f51a.eml" }
+2018-12-20 12:24:09.091 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:24:09.092 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-5bd80a03-293d-4ab7-b124-88460cfcf12b\index.html"
+2018-12-20 12:24:09.104 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:24:09.294 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 12:24:08, Name: "20181220122408315-b4f51a.eml", FileSize: "32.2KB", DisplayText: "20-Dec-18 12:24:08 PM (32.2KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122408315-b4f51a.eml" }
+2018-12-20 12:24:09.308 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:24:09.310 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-5c6968b6-32f3-4015-99b6-93b4065eaac2\index.html"
+2018-12-20 12:24:09.320 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:25:48.200 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 12:25:48.200 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 12:25:48.201 -03:00 [Debug] Connection 7 Closed
+2018-12-20 12:26:45.937 -03:00 [Debug] Status: 1 Connections "180.2MB" Memory Used
+2018-12-20 12:27:42.870 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 12:27:42.871 -03:00 [Debug] New Connection 8 from "127.0.0.1:63993"
+2018-12-20 12:27:42.871 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 12:27:42.871 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 12:27:42.871 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 12:27:42.871 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 12:27:42.871 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:27:42.871 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 12:27:42.871 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 12:27:42.872 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 12:27:42.872 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 12:27:42.872 -03:00 [Debug] Received Line "DATA"
+2018-12-20 12:27:42.872 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 12:27:42.872 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:27:42.874 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122742873-1eb7a8.eml"
+2018-12-20 12:27:43.374 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 12:27:42, Name: "20181220122742873-1eb7a8.eml", FileSize: "16.1KB", DisplayText: "20-Dec-18 12:27:42 PM (16.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122742873-1eb7a8.eml" }
+2018-12-20 12:27:43.375 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 12:27:43.375 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 12:27:42, Name: "20181220122742873-1eb7a8.eml", FileSize: "16.1KB", DisplayText: "20-Dec-18 12:27:42 PM (16.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122742873-1eb7a8.eml" }
+2018-12-20 12:27:43.376 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:27:42, Name: "20181220122742873-1eb7a8.eml", FileSize: "16.1KB", DisplayText: "20-Dec-18 12:27:42 PM (16.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122742873-1eb7a8.eml" }
+2018-12-20 12:27:43.599 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 12:27:42, Name: "20181220122742873-1eb7a8.eml", FileSize: "16.1KB", DisplayText: "20-Dec-18 12:27:42 PM (16.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220122742873-1eb7a8.eml" }
+2018-12-20 12:27:43.601 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:27:43.601 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-d9dfacd7-d63a-418c-bd90-68b0d59f8666\index.html"
+2018-12-20 12:27:43.607 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:29:08.264 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 12:29:08.264 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 12:29:08.264 -03:00 [Debug] Connection 8 Closed
+2018-12-20 12:34:29.305 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 12:34:29.305 -03:00 [Debug] New Connection 9 from "127.0.0.1:64744"
+2018-12-20 12:34:29.305 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 12:34:29.305 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 12:34:29.305 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 12:34:29.305 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 12:34:29.305 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:34:29.306 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 12:34:29.306 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 12:34:29.306 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 12:34:29.306 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 12:34:29.306 -03:00 [Debug] Received Line "DATA"
+2018-12-20 12:34:29.306 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 12:34:29.307 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:34:29.309 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123429307-f7033a.eml"
+2018-12-20 12:34:29.808 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 12:34:29, Name: "20181220123429307-f7033a.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:34:29 PM (12KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123429307-f7033a.eml" }
+2018-12-20 12:34:29.808 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 12:34:29.809 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 12:34:29, Name: "20181220123429307-f7033a.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:34:29 PM (12KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123429307-f7033a.eml" }
+2018-12-20 12:34:29.810 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:34:29, Name: "20181220123429307-f7033a.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:34:29 PM (12KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123429307-f7033a.eml" }
+2018-12-20 12:34:30.022 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 12:34:29, Name: "20181220123429307-f7033a.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:34:29 PM (12KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123429307-f7033a.eml" }
+2018-12-20 12:34:30.026 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-e7b649fc-0c2a-4a2f-8a83-17984e56034b\index.html"
+2018-12-20 12:34:30.026 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:34:30.033 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:35:52.934 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 12:35:52.934 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 12:35:52.934 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 12:35:52.934 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 12:35:52.934 -03:00 [Debug] Received Line "DATA"
+2018-12-20 12:35:52.934 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 12:35:52.935 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 12:35:52.936 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123552935-7b14c7.eml"
+2018-12-20 12:35:53.435 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 12:35:52, Name: "20181220123552935-7b14c7.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:35:52 PM (12KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123552935-7b14c7.eml" }
+2018-12-20 12:35:53.436 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 12:35:53.436 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 12:35:52, Name: "20181220123552935-7b14c7.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:35:52 PM (12KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123552935-7b14c7.eml" }
+2018-12-20 12:35:53.438 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 12:35:52, Name: "20181220123552935-7b14c7.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:35:52 PM (12KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123552935-7b14c7.eml" }
+2018-12-20 12:35:53.651 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 12:35:52, Name: "20181220123552935-7b14c7.eml", FileSize: "12KB", DisplayText: "20-Dec-18 12:35:52 PM (12KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220123552935-7b14c7.eml" }
+2018-12-20 12:35:53.657 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-5612794b-290e-40dd-8881-9a7b43925390\index.html"
+2018-12-20 12:35:53.657 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:35:53.662 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 12:36:59.584 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 12:36:59.584 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 12:36:59.584 -03:00 [Debug] Connection 9 Closed
+2018-12-20 12:41:45.992 -03:00 [Information] Session timeout, disconnecting 6
+2018-12-20 12:41:45.992 -03:00 [Debug] Connection 6 Closed
+2018-12-20 12:46:45.937 -03:00 [Debug] Status: 0 Connections "180.3MB" Memory Used
+2018-12-20 13:06:45.952 -03:00 [Debug] Status: 0 Connections "179.8MB" Memory Used
+2018-12-20 13:26:45.964 -03:00 [Debug] Status: 0 Connections "181.5MB" Memory Used
+2018-12-20 13:45:41.773 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 13:45:41.773 -03:00 [Debug] New Connection 10 from "127.0.0.1:55579"
+2018-12-20 13:45:41.773 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 13:45:41.773 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 13:45:41.773 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 13:45:41.773 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 13:45:41.774 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 13:45:41.774 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 13:45:41.774 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 13:45:41.774 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 13:45:41.774 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 13:45:41.774 -03:00 [Debug] Received Line "DATA"
+2018-12-20 13:45:41.774 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 13:45:41.775 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 13:45:41.778 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134541776-26c267.eml"
+2018-12-20 13:45:42.278 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 13:45:41, Name: "20181220134541776-26c267.eml", FileSize: "36.2KB", DisplayText: "20-Dec-18 01:45:41 PM (36.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134541776-26c267.eml" }
+2018-12-20 13:45:42.278 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 13:45:42.278 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 13:45:41, Name: "20181220134541776-26c267.eml", FileSize: "36.2KB", DisplayText: "20-Dec-18 01:45:41 PM (36.2KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134541776-26c267.eml" }
+2018-12-20 13:45:42.280 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:45:41, Name: "20181220134541776-26c267.eml", FileSize: "36.2KB", DisplayText: "20-Dec-18 01:45:41 PM (36.2KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134541776-26c267.eml" }
+2018-12-20 13:45:42.491 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 13:45:41, Name: "20181220134541776-26c267.eml", FileSize: "36.2KB", DisplayText: "20-Dec-18 01:45:41 PM (36.2KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134541776-26c267.eml" }
+2018-12-20 13:45:42.497 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 13:45:42.498 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-a30db2fc-8156-4b21-83c2-abb1bac0abab\index.html"
+2018-12-20 13:45:42.504 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 13:46:28.896 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 13:46:28.896 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 13:46:28.896 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 13:46:28.896 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 13:46:28.896 -03:00 [Debug] Received Line "DATA"
+2018-12-20 13:46:28.896 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 13:46:28.897 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 13:46:28.898 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134628897-c59449.eml"
+2018-12-20 13:46:29.399 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 13:46:28, Name: "20181220134628897-c59449.eml", FileSize: "20.1KB", DisplayText: "20-Dec-18 01:46:28 PM (20.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134628897-c59449.eml" }
+2018-12-20 13:46:29.399 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 13:46:29.399 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 13:46:28, Name: "20181220134628897-c59449.eml", FileSize: "20.1KB", DisplayText: "20-Dec-18 01:46:28 PM (20.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134628897-c59449.eml" }
+2018-12-20 13:46:29.401 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:46:28, Name: "20181220134628897-c59449.eml", FileSize: "20.1KB", DisplayText: "20-Dec-18 01:46:28 PM (20.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134628897-c59449.eml" }
+2018-12-20 13:46:29.618 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 13:46:28, Name: "20181220134628897-c59449.eml", FileSize: "20.1KB", DisplayText: "20-Dec-18 01:46:28 PM (20.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134628897-c59449.eml" }
+2018-12-20 13:46:29.623 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 13:46:29.623 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-f3ff7070-a89f-44b7-bfbf-3fe1e99015a1\index.html"
+2018-12-20 13:46:29.627 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 13:46:45.964 -03:00 [Debug] Status: 1 Connections "188.8MB" Memory Used
+2018-12-20 13:47:20.782 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 13:47:20.782 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 13:47:20.783 -03:00 [Debug] Connection 10 Closed
+2018-12-20 13:47:23.846 -03:00 [Debug] Sending Line "220 laptop-35m5l0ko"
+2018-12-20 13:47:23.846 -03:00 [Debug] New Connection 11 from "127.0.0.1:55739"
+2018-12-20 13:47:23.846 -03:00 [Debug] Received Line "EHLO LAPTOP-35M5L0KO"
+2018-12-20 13:47:23.846 -03:00 [Debug] Sending Line "250-laptop-35m5l0ko"
+2018-12-20 13:47:23.846 -03:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-12-20 13:47:23.846 -03:00 [Debug] Sending Line "250-8BITMIME"
+2018-12-20 13:47:23.846 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 13:47:23.846 -03:00 [Debug] Received Line "MAIL FROM:<info@serquest.com>"
+2018-12-20 13:47:23.846 -03:00 [Debug] Sending Line "250 <info@serquest.com> OK"
+2018-12-20 13:47:23.846 -03:00 [Debug] Received Line "RCPT TO:<jdesposito@itx.com>"
+2018-12-20 13:47:23.846 -03:00 [Debug] Sending Line "250 <jdesposito@itx.com> OK"
+2018-12-20 13:47:23.846 -03:00 [Debug] Received Line "DATA"
+2018-12-20 13:47:23.846 -03:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-12-20 13:47:23.847 -03:00 [Debug] Sending Line "250 OK"
+2018-12-20 13:47:23.849 -03:00 [Information] Successfully Saved email message: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml"
+2018-12-20 13:47:24.349 -03:00 [Verbose] Loading Message Entry MessageEntry { ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-20 13:47:24.349 -03:00 [Verbose] Getting Message Data from Message Repository
+2018-12-20 13:47:24.349 -03:00 [Verbose] MimeMessage Load for MessageEntry { ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: False, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-20 13:47:24.352 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: null, ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-20 13:47:24.555 -03:00 [Verbose] Loading Message Entry MimeMessageEntry { Subject: "Event Fundraiser tickets and receipt", ModifiedDate: 12/20/2018 13:47:23, Name: "20181220134723848-86f621.eml", FileSize: "24.1KB", DisplayText: "20-Dec-18 01:47:23 PM (24.1KB)", IsSelected: True, File: "C:\Users\jgdes\AppData\Roaming\Papercut\20181220134723848-86f621.eml" }
+2018-12-20 13:47:24.565 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 13:47:24.565 -03:00 [Verbose] Writing HTML Preview file "C:\Users\jgdes\AppData\Local\Temp\Papercut-7589d71d-9430-45a6-a67a-a569aa52e679\index.html"
+2018-12-20 13:47:24.569 -03:00 [Verbose] Invoking "Action: OnNavigating".
+2018-12-20 13:49:00.810 -03:00 [Debug] Received Line "QUIT"
+2018-12-20 13:49:00.810 -03:00 [Debug] Sending Line "221 Goodbye!"
+2018-12-20 13:49:00.810 -03:00 [Debug] Connection 11 Closed
+2018-12-20 14:06:45.964 -03:00 [Debug] Status: 0 Connections "182.3MB" Memory Used
+2018-12-20 14:26:45.986 -03:00 [Debug] Status: 0 Connections "184.1MB" Memory Used
+2018-12-20 14:46:45.979 -03:00 [Debug] Status: 0 Connections "184.2MB" Memory Used
+2018-12-20 15:06:45.980 -03:00 [Debug] Status: 0 Connections "184.9MB" Memory Used
+2018-12-20 15:26:45.980 -03:00 [Debug] Status: 0 Connections "184.7MB" Memory Used
+2018-12-20 15:46:45.980 -03:00 [Debug] Status: 0 Connections "184.4MB" Memory Used
+2018-12-20 16:06:45.980 -03:00 [Debug] Status: 0 Connections "132.1MB" Memory Used
+2018-12-20 16:26:46.001 -03:00 [Debug] Status: 0 Connections "132.8MB" Memory Used
+2018-12-20 16:46:45.995 -03:00 [Debug] Status: 0 Connections "133MB" Memory Used
+2018-12-20 17:06:45.995 -03:00 [Debug] Status: 0 Connections "133.6MB" Memory Used
+2018-12-20 17:26:45.995 -03:00 [Debug] Status: 0 Connections "133.5MB" Memory Used
+2018-12-20 17:46:46.014 -03:00 [Debug] Status: 0 Connections "144.3MB" Memory Used
+2018-12-20 21:11:40.165 -03:00 [Debug] Status: 0 Connections "143MB" Memory Used
+2018-12-20 21:31:40.165 -03:00 [Debug] Status: 0 Connections "147.5MB" Memory Used
+2018-12-20 21:51:40.165 -03:00 [Debug] Status: 0 Connections "146.5MB" Memory Used
+2018-12-20 22:11:40.171 -03:00 [Debug] Status: 0 Connections "146.6MB" Memory Used
+2018-12-20 22:46:38.120 -03:00 [Debug] Status: 0 Connections "145.3MB" Memory Used
