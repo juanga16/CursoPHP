@@ -21,5 +21,9 @@
         echo "File: ".$exception->getFile();
         echo "</br>";
         echo "Line: ".$exception->getLine();
+        echo "</br>";
+        echo "Codigo: ".$exception->getCode();
+        echo "</br>";
+        echo "Previous: ".$exception->getPrevious(); // En el caso que hubieran excepciones encadenadas
     }
 ?>
