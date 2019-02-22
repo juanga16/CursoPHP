@@ -1,0 +1,1 @@
+http://php.net/manual/es/language.oop5.inheritance.php
