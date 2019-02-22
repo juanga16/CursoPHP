@@ -6,17 +6,25 @@
 
 <?php
     // Armo la consulta
-    $sql = "SELECT * FROM pelicula ORDER BY calificacion";
-
-    // Ejecutamos la consulta y guardamos el resultado
-    $resultado = $conexion->query($sql);
+    $consulta = $conexion->prepare("SELECT * FROM pelicula ORDER BY calificacion");
+    $consulta->execute();
+    $resultado = $consulta->fetchAll();
 
     // Para obtener la cantidad de registros
-    echo "<h2>Cantidad de registros: $resultado->num_rows</h2>";
+    echo "<h2>Cantidad de registros: ".$consulta->rowCount()."</h2>";
 
-    if ($resultado->num_rows > 0) {
-        // La funcion fetch_assoc, llena un arreglo con todos los campos y valores del registro
-        while($registro = $resultado->fetch_assoc()) {
+    if ($resultado) {
+        echo "<table>";
+        echo "<tr>";
+        echo "<th>Id</th>";
+        echo "<th>Titulo</th>";
+        echo "<th>Fecha de Estreno</th>";
+        echo "<th>Calificacion</th>";
+        echo "<th>Nacionalidad</th>";
+        echo "<th>Poster</th>";
+        echo "</tr>";
+
+        foreach ($resultado as $registro) {
             $fechaEstreno = new DateTime($registro["fecha_estreno"]);
 
             // Imprimimos cada fila
@@ -31,5 +39,7 @@
         }
     }
 
+    $consulta = null;
+    $resultado = null;
     require "include/cerrar_conexion.php";
 ?>

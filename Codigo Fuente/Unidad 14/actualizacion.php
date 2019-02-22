@@ -4,21 +4,23 @@
 
 <h1>Actualizacion de registros</h1>
 
-<?php
-    $calificacion = 8.7;
-    $fechaEstreno = "2004-01-25 10:00";
-    $id = 1;
+<?php    
+    try { 
+        // Seteamos los parametros
+        $calificacion = 6.7;
+        $fechaEstreno = "2004-01-25 10:00";
+        $id = 1;    
 
-    $update = "UPDATE pelicula SET calificacion=$calificacion, fecha_estreno = '$fechaEstreno' WHERE id=$id";
+        // Preparo el update y bindeo los parametros
+        $update = $conexion->prepare("UPDATE pelicula SET calificacion=?, fecha_estreno = ? WHERE id=?");
+        $update->execute(array($calificacion, $fechaEstreno, $id));
 
-    echo $update;
-    echo "<br>";
+        // Cantidad de registros actualizados
+        echo "<h2>".$update->rowCount()."</h2>";
+    } catch( PDOExecption $excepcion) { 
+        echo "<h2>Error: $excepcion->getMessage()</h2>";
+    }     
 
-    if ($conexion->query($update)) {
-        echo "Se actualizo el registro";
-    } else {
-        echo "Error: $conexion->error";
-    }
-
+    $update = null;
     require "include/cerrar_conexion.php";
 ?>
