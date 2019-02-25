@@ -17,6 +17,7 @@
             // Armo la consulta
             $consulta = $conexion->prepare("SELECT * FROM pelicula ORDER BY calificacion");
             $consulta->execute();
+            // Trae todos los registros y los carga en un array
             $resultado = $consulta->fetchAll();
 
             // Para obtener la cantidad de registros
