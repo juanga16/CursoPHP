@@ -68,6 +68,7 @@
     // Armo la consulta
     $consulta = $conexion->prepare("SELECT id, titulo, calificacion, nacionalidad, poster, fecha_estreno as fechaEstreno FROM pelicula ORDER BY calificacion");
     $consulta->execute();
+    // Ejecuto la consulta y llenamos un arreglo de instancia de Peliculas
     $resultado = $consulta->fetchAll(PDO::FETCH_CLASS, 'Pelicula');
 
     // Para obtener la cantidad de registros

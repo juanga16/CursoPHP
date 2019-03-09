@@ -58,6 +58,8 @@
 			echo "<br/>";
 		}
 
+		// Esta es otra forma de definir un nuevo "constructor"
+		// Utilizando un metodo estatico
 		public static function obtener($nombre, $numero) {
 			$instancia = new self($nombre, $numero, 200);
 
@@ -82,6 +84,7 @@
 		}
 	}
 
+	// Invoco un metodo estatico de la clase Deportista
 	Deportista::imprimirTitulo();
 
 	$manuGinobili = new Basquetbolista("Emanuel Ginobili", 20, 1.98);
