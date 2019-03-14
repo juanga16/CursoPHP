@@ -1,0 +1,145 @@
+/* Style the body */
+body {
+     font-family: Arial;
+	 width: 1024px;
+	 margin-left: auto;
+     margin-right: auto;
+}
+
+/* Header/logo Title  */
+.header {
+    padding: 5px;
+    text-align: left;
+    background: #1545aa;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    padding: 5px;
+	font-size: 11px;
+    text-align: right;
+	color: white;
+    background: #83aec0;
+}
+
+#scroll {     
+width:100%;     
+height:300px;      
+/** bottom:200px; /*Abajo deje un espacio de 0px*/
+overflow:auto;
+}
+
+.listado {
+    background-color: #FFFFFF;
+    height:600px;
+	width: 100%;
+    padding: 0px;
+}
+
+.login {
+    background-color: #FFFFFF;
+    height:505px;
+	width: 100%;
+    padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	text-align: justify;
+}
+
+.tablac {  
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+/***************************************************
+**************        @Tablas       ****************
+****************************************************/
+.tabla{
+		font-size: 11px;
+		border-style: solid;
+		border-color: #666666;
+		border-width: 1px;
+		
+}
+
+.tdatos{
+		font-size: 11px;
+		font-weight: bold;
+		color:#000 ;
+		background-color: #BDD2FF;
+		border-style: solid;
+		border-color: #cccccc;
+		border-width: 1px;
+
+}
+
+.tabla_n {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size:12px;
+ text-align: right;
+ width:100%;
+ }
+
+.tabla_n th {
+ padding: 5px;
+ font-size: 12px;
+ background-color: #83aec0;
+ background-repeat: repeat-x;
+ color: #FFFFFF;
+ border-right-width: 1px;
+ border-bottom-width: 1px;
+ border-right-style: solid;
+ border-bottom-style: solid;
+ border-right-color: #558FA6;
+ border-bottom-color: #558FA6;
+ font-family: “Trebuchet MS”, Arial;
+ text-transform: uppercase;
+ text-align:center;
+
+ }
+ 
+
+.tabla_n .modo1 {
+ font-size: 12px;
+ font-weight:bold;
+ background-color: #e2ebef;
+ background-repeat: repeat-x;
+ color: #34484E;
+ font-family: “Trebuchet MS”, Arial;
+text-align:left;
+ }
+ .tabla_n .modo1 td {
+ padding: 5px;
+ border-right-width: 1px;
+ border-bottom-width: 1px;
+ border-right-style: solid;
+ border-bottom-style: solid;
+ border-right-color: #A4C4D0;
+ border-bottom-color: #A4C4D0;
+text-align:left;
+ } 
+ 
+ .tabla_n .modo1 th {
+ background-image: url(/sv/theme/images/fondo_tr01a.png);
+ background-position: left top;
+ font-size: 12px;
+ font-weight:bold;
+ text-align: left;
+ background-color: #e2ebef;
+ background-repeat: repeat-x;
+ color: #34484E;
+ font-family: “Trebuchet MS”, Arial;
+ border-right-width: 1px;
+ border-bottom-width: 1px;
+ border-right-style: solid;
+ border-bottom-style: solid;
+ border-right-color: #A4C4D0;
+ border-bottom-color: #A4C4D0;
+ }
+
+
+ 
