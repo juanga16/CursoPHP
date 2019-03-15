@@ -1,0 +1,13 @@
+******* Atencion!! ********************************************
+El proyecto contiene la libreria de Bootstrap CDN por lo tanto 
+se necesita conexion de internet para funcionar correctamente.
+***************************************************************
+
+  Login:   
+        Usuario: Nico 
+        Contraseña: 1234
+
+
+Nombre de base de datos: 
+                        herreria
+                        utf8_spanish_ci
