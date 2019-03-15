@@ -1,0 +1,35 @@
+Estimada/o lector Aunque tengo conocimientos en css y js opte por ponerle un poquito de boostrap por mi 
+falta de tiempo espero les guste mi CRUD con lo aprendido en el curso y que cumpla con
+lo requerido... 
+
+!!la web no está adaptada para uso responsive en caso de que no ver parte de la tabla, disminuir
+el zoom en el explorador 
+
+Guía
+1. Importar archivo de un una base de datos mysql con en xampp con el nombre biblioteca. Este archivo
+  sql se encuentra en la carpeta mysql con el nombre de bblioteca que contiene las tablas.
+2. El usuario y contraseña esta de forma simple sin base de datos usuario: Leo pass: 1234
+
+Detalles: Carpeta imágenes se guardan las imágenes subidas al servidor...
+	  Carpeta boostrap-4.3.1-dist los css con los que aplique los estilos
+	  Carpeta include posee dos archivos php para la conexión y desconexión
+	  Carpeta mysql posee el archivo a inportar de la base de datos mysql
+	  
+	  Archivos breve explicación:
+fase1:		index.php: muestra el panel login de ingreso
+fase2:		login.php: validación de datos ingresados en index.php y redirecciona a tabla.php	  
+fase3:		tabla.php: muestra una tabla con los registros que se hallan guardado
+fase4:		formulario.php: sirve para agregar registros a la base de dato y mostrarlos en la
+				tabla
+fase5:		guardar.php: se vincula con el formulario y podemos agregar tantos registros como 
+			     queramos
+		
+		eliminar.php: elimina registros de la base de datos
+		formularioDeEdicion.php: nos abre un nuevo formulario de edición de los datos ya
+					 ingresados
+		editar.php: se vincula con el formulario de edición y reescribe los registros
+		
+
+Gracias por la oportunidad... la verdad me divertí mucho al hacerlo.
+
+			ALumno: Leonardo Emanuel Espinoza
