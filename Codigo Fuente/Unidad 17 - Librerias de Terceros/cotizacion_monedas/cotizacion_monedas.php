@@ -1,1 +1,0 @@
-https://www.exchangerate-api.com/php-currency-api
