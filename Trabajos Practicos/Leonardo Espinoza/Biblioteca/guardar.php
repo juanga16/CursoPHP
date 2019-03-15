@@ -1,6 +1,5 @@
 <?php
     include "include\conexion.php";
-    //if (isset($_REQUEST["Salir"])) { $_SESSION = array(); session_destroy();}
         //Seteamos las variables
     try { 
         $id=$_POST['id'];
@@ -36,12 +35,12 @@
             $insert = $conexion->prepare("INSERT INTO libros (Titulo, Autor, Paginas, id_genero, Disponible, Fecha_Publicada, Portada) VALUES ('$titulo', '$autor', '$paginas', '$id_genero', '$disponible', '$fecha', '$portada')");
             $insert->bindParam(':fPortada',$portada); // enlazar todo el parámetro
             $insert->execute();
+            $insert = null;
+            require "include\desconexion.php";
+            header("location: tabla.php");
         }else{
             echo "<a href='javascript:history.go(-1)'>Volver Atras</a>";//volver atras para no perder los datos ya cargados en caso de algun error
         }
-        $insert = null;
-        require "include\desconexion.php";
-        header("location: tabla.php");
     } catch( PDOExecption $excepcion) { 
         echo "<h2>Error: $excepcion->getMessage()</h2>";
     }     

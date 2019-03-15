@@ -41,12 +41,12 @@ try {
         if($a){
 			$update = $conexion->prepare("UPDATE libros SET Titulo='$titulo', Paginas='$paginas', Autor = '$autor', id_genero='$id_genero', Disponible='$disponible', Fecha_Publicada='$fecha', Portada='$portada' WHERE id='$id'");
             $update->execute();
+            $update = null;
+            require "include\desconexion.php";
+            header("location: tabla.php");
         }else{
             echo "<a href='javascript:history.go(-1)'>Volver Atras</a>";//volver atras para no perder los datos ya cargados en caso de algun error
         }
-    $update = null;
-    require "include\desconexion.php";
-    header("location: tabla.php");
 } catch( PDOExecption $excepcion) { 
 	echo "<h2>Error: $excepcion->getMessage()</h2>";
 }     

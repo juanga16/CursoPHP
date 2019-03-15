@@ -34,6 +34,5 @@
     if ($boton2 == 'Salir') {
         $_SESSION['Salir'] = session_destroy();
         //$_SESSION = session_unset(); 
-    }*/
-
+    }
 ?>
