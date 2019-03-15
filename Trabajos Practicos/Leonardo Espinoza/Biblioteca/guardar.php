@@ -1,4 +1,5 @@
 <?php
+    include "include\session.php";
     include "include\conexion.php";
         //Seteamos las variables
     try { 
@@ -15,12 +16,12 @@
         $tamaño  = $_FILES["portada"]["size"];
         $temp  = $_FILES["portada"]["tmp_name"];
         $carpeta="imagenes/".$portada; // establecer la ruta de la carpeta de carga
-        $a=FALSE;
+        $validacionImagen=FALSE;
         if($tipo=='image/jpg' || $tipo=='image/jpeg' || $tipo=='image/png'){ 
             if(!file_exists($carpeta)){// el archivo de verificación no existe en la ruta de su carpeta de carga
                 if($tamaño < 5000000) {// comprueba el tamaño del archivo 5MB
                     move_uploaded_file($temp, 'imagenes/' .$portada); // mover el directorio temporal del archivo de carga a su carpeta de carga
-                    $a=TRUE;
+                    $validacionImagen=TRUE;
                 }else{
                     echo "<script type='text/javascript'>alert('Archivo demaciado grande, Tamaño permitido 5MB');</script>";
                 }
@@ -31,7 +32,7 @@
             echo "<script type='text/javascript'>alert('imagenes JPG , JPEG o PNG Formato de archivo ..... VERIFICAR LA EXTENSIÓN DE ARCHIVOS');</script>";
         }
         //sentencia sql
-        if($a){
+        if($validacionImagen){
             $insert = $conexion->prepare("INSERT INTO libros (Titulo, Autor, Paginas, id_genero, Disponible, Fecha_Publicada, Portada) VALUES ('$titulo', '$autor', '$paginas', '$id_genero', '$disponible', '$fecha', '$portada')");
             $insert->bindParam(':fPortada',$portada); // enlazar todo el parámetro
             $insert->execute();

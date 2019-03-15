@@ -1,5 +1,7 @@
 <?php
+include "include\session.php";
 include "include\conexion.php";
+        
 try {
     //tomo por get el id del formulario
     if (isset($_REQUEST['id'])) {

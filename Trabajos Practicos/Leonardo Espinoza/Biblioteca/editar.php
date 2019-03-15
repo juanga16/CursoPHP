@@ -21,28 +21,42 @@ try {
 	$temp  = $_FILES["portada"]["tmp_name"];
 	$carpeta="imagenes/".$portada; // establecer la ruta de la carpeta de carga
 	$directorio="imagenes/";// establecer la ruta de la carpeta de carga para el tiempo de actualización eliminar el archivo anterior y cargar el nuevo archivo para el siguiente uso
-	$a=FALSE;
+    $validacionImagen=FALSE;
+    
+    if ($portada == "") {
+        $validacionImagen=TRUE;
+    } else {
         if($tipo=='image/jpg' || $tipo=='image/jpeg' || $tipo=='image/png'){ 
             if(!file_exists($carpeta)){// el archivo de verificación no existe en la ruta de su carpeta de carga
                 if($tamaño < 5000000) {// comprueba el tamaño del archivo 5MB
                     move_uploaded_file($temp, 'imagenes/' .$portada); // mover el directorio temporal del archivo de carga a su carpeta de carga
                     unlink($directorio.$row['Portada']); // función de desvinculación eliminar archivo anterior
-                    $a=TRUE;
+                    $validacionImagen=TRUE;
                 }else{
                     echo "<script type='text/javascript'>alert('Archivo demaciado grande, Tamaño permitido 5MB');</script>";
                 }
             }else{ 
                 echo "<script type='text/javascript'>alert('El archivo ya existe ... Revisar la carpeta de imágenes');</script>";
             }
-        }else{
-            echo "<script type='text/javascript'>alert('imagenes JPG , JPEG o PNG Formato de archivo ..... VERIFICAR LA EXTENSIÓN DE ARCHIVOS');</script>";
         }
+    }
         //sentencia sql
-        if($a){
-			$update = $conexion->prepare("UPDATE libros SET Titulo='$titulo', Paginas='$paginas', Autor = '$autor', id_genero='$id_genero', Disponible='$disponible', Fecha_Publicada='$fecha', Portada='$portada' WHERE id='$id'");
+        if($validacionImagen){
+            $sentenciaSql = "UPDATE libros SET Titulo='$titulo', Paginas='$paginas', Autor = '$autor', id_genero='$id_genero', Disponible='$disponible', Fecha_Publicada='$fecha'";
+
+            if ($portada != "") {
+                $sentenciaSql = $sentenciaSql.", Portada='$portada'";
+            }
+
+            $sentenciaSql = $sentenciaSql." WHERE id='$id'";
+
+            $update = $conexion->prepare($sentenciaSql);
+                        
             $update->execute();
             $update = null;
             require "include\desconexion.php";
+
+            echo "<h1>$sentenciaSql</h1>";
             header("location: tabla.php");
         }else{
             echo "<a href='javascript:history.go(-1)'>Volver Atras</a>";//volver atras para no perder los datos ya cargados en caso de algun error
