@@ -1,13 +1,13 @@
 <?php
     // https://www.koolphp.net/
     // Path a la carpeta donde se encuentran los controles
-	$koolControlsFolder = "KoolControls";
+	$carpetaKool = "KoolControls";
  
-	require "$koolControlsFolder./KoolChart/koolchart.php";
+	require "$carpetaKool./KoolChart/koolchart.php";
  
     // Instancio el grafico
 	$chart = new KoolChart("chart");
-	$chart->scriptFolder=$koolControlsFolder."/KoolChart";	
+	$chart->scriptFolder=$carpetaKool."/KoolChart";	
 	$chart->Width = 900;
 	$chart->Height = 900;
 	$chart->Title->Text = "Estadisticas de navegadores. Marzo de 2019";
